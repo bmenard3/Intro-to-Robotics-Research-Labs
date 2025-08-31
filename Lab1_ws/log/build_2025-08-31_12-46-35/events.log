@@ -1,0 +1,743 @@
+[0.000000] (-) TimerEvent: {}
+[0.000208] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000487] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.008017] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.008308] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/src/ros_tutorials/turtlesim', '-DCMAKE_INSTALL_PREFIX=/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim'], 'cwd': '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'augustmenard'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1246'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/augustmenard'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/src'), ('DESKTOP_SESSION', 'plasma'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '26729238400447a3b9a82e44c5d32d99'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/augustmenard/.gtkrc:/home/augustmenard/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1049'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'augustmenard'), ('WINDOWID', '73400327'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/augustmenard/.gtkrc-2.0:/home/augustmenard/.config/gtkrc-2.0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/augustmenard-15Z95N-G-AAC6U1:@/tmp/.ICE-unix/1400,unix/augustmenard-15Z95N-G-AAC6U1:/tmp/.ICE-unix/1400'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Blue'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/augustmenard/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtQZ5nd/agent.1112'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.56'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '1'), ('PWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/augustmenard/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/augustmenard/turtlebot3_ws/build/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/build/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.091429] (turtlesim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099913] (-) TimerEvent: {}
+[0.181886] (turtlesim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.188903] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200015] (-) TimerEvent: {}
+[0.261085] (turtlesim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.266082] (turtlesim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.266276] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.266798] (turtlesim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.269124] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300169] (-) TimerEvent: {}
+[0.334324] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.339742] (turtlesim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.339839] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.340113] (turtlesim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.345448] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400337] (-) TimerEvent: {}
+[0.457297] (turtlesim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500516] (-) TimerEvent: {}
+[0.535558] (turtlesim) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[0.537969] (turtlesim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.576971] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.583044] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.591168] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.600671] (-) TimerEvent: {}
+[0.604078] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.619599] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.666518] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700835] (-) TimerEvent: {}
+[0.701223] (turtlesim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.704746] (turtlesim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.776692] (turtlesim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.797694] (turtlesim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.800927] (-) TimerEvent: {}
+[0.828131] (turtlesim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.837630] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901078] (-) TimerEvent: {}
+[0.916500] (turtlesim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.916717] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.974234] (turtlesim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.975052] (turtlesim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001218] (-) TimerEvent: {}
+[1.010741] (turtlesim) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.14 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.041768] (turtlesim) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.051415] (turtlesim) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.101408] (-) TimerEvent: {}
+[1.201718] (-) TimerEvent: {}
+[1.275872] (turtlesim) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.301893] (-) TimerEvent: {}
+[1.402121] (-) TimerEvent: {}
+[1.502447] (-) TimerEvent: {}
+[1.507630] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.598188] (turtlesim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.602620] (-) TimerEvent: {}
+[1.615070] (turtlesim) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.617185] (turtlesim) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.637186] (turtlesim) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.637312] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.637357] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.637396] (turtlesim) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.653504] (turtlesim) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.701209] (turtlesim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.702706] (-) TimerEvent: {}
+[1.740090] (turtlesim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.753138] (turtlesim) StdoutLine: {'line': b'-- Build files have been written to: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim\n'}
+[1.761775] (turtlesim) CommandEnded: {'returncode': 0}
+[1.763151] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[1.763300] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'augustmenard'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1246'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/augustmenard'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/src'), ('DESKTOP_SESSION', 'plasma'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '26729238400447a3b9a82e44c5d32d99'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/augustmenard/.gtkrc:/home/augustmenard/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1049'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'augustmenard'), ('WINDOWID', '73400327'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/augustmenard/.gtkrc-2.0:/home/augustmenard/.config/gtkrc-2.0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/augustmenard-15Z95N-G-AAC6U1:@/tmp/.ICE-unix/1400,unix/augustmenard-15Z95N-G-AAC6U1:/tmp/.ICE-unix/1400'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Blue'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/augustmenard/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtQZ5nd/agent.1112'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.56'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '1'), ('PWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/augustmenard/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/augustmenard/turtlebot3_ws/build/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/build/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[1.794702] (turtlesim) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.802408] (turtlesim) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.802785] (-) TimerEvent: {}
+[1.808492] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_turtlesim\n'}
+[1.902904] (-) TimerEvent: {}
+[1.982686] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[1.983095] (turtlesim) StdoutLine: {'line': b'creating turtlesim.egg-info\n'}
+[1.983211] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[1.983347] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[1.983444] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[1.983525] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.985196] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[1.985566] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[2.003001] (-) TimerEvent: {}
+[2.005489] (turtlesim) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[2.103099] (-) TimerEvent: {}
+[2.203362] (-) TimerEvent: {}
+[2.303633] (-) TimerEvent: {}
+[2.403917] (-) TimerEvent: {}
+[2.504199] (-) TimerEvent: {}
+[2.565216] (turtlesim) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/action/detail/rotate_absolute__functions.c.o\x1b[0m\n'}
+[2.567948] (turtlesim) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/color__functions.c.o\x1b[0m\n'}
+[2.570419] (turtlesim) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/msg/detail/pose__functions.c.o\x1b[0m\n'}
+[2.574803] (turtlesim) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/kill__functions.c.o\x1b[0m\n'}
+[2.576251] (turtlesim) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/spawn__functions.c.o\x1b[0m\n'}
+[2.576482] (turtlesim) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/set_pen__functions.c.o\x1b[0m\n'}
+[2.593943] (turtlesim) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_absolute__functions.c.o\x1b[0m\n'}
+[2.606778] (-) TimerEvent: {}
+[2.631998] (turtlesim) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_c.dir/rosidl_generator_c/turtlesim/srv/detail/teleport_relative__functions.c.o\x1b[0m\n'}
+[2.632179] (turtlesim) StdoutLine: {'line': b'[ 10%] Built target turtlesim__cpp\n'}
+[2.640747] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.640941] (turtlesim) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.644329] (turtlesim) StdoutLine: {'line': b'[ 13%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.699985] (turtlesim) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_generator_c.so\x1b[0m\n'}
+[2.706859] (-) TimerEvent: {}
+[2.731866] (turtlesim) StdoutLine: {'line': b'[ 14%] Built target turtlesim__rosidl_generator_c\n'}
+[2.740929] (turtlesim) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.743093] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.743263] (turtlesim) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.806950] (-) TimerEvent: {}
+[2.907240] (-) TimerEvent: {}
+[3.007512] (-) TimerEvent: {}
+[3.101354] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.101542] (turtlesim) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.101624] (turtlesim) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.109936] (-) TimerEvent: {}
+[3.210208] (-) TimerEvent: {}
+[3.310481] (-) TimerEvent: {}
+[3.410769] (-) TimerEvent: {}
+[3.499082] (turtlesim) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.509182] (turtlesim) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.510861] (-) TimerEvent: {}
+[3.568666] (turtlesim) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/action/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.610942] (-) TimerEvent: {}
+[3.633809] (turtlesim) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/color__type_support.cpp.o\x1b[0m\n'}
+[3.667991] (turtlesim) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/action/detail/rotate_absolute__type_support.c.o\x1b[0m\n'}
+[3.672335] (turtlesim) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/msg/pose__type_support.cpp.o\x1b[0m\n'}
+[3.711049] (-) TimerEvent: {}
+[3.711277] (turtlesim) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/kill__type_support.cpp.o\x1b[0m\n'}
+[3.730768] (turtlesim) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/color__type_support.c.o\x1b[0m\n'}
+[3.746760] (turtlesim) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/msg/detail/pose__type_support.c.o\x1b[0m\n'}
+[3.752461] (turtlesim) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/set_pen__type_support.cpp.o\x1b[0m\n'}
+[3.774585] (turtlesim) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/kill__type_support.c.o\x1b[0m\n'}
+[3.794318] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.794572] (turtlesim) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/set_pen__type_support.c.o\x1b[0m\n'}
+[3.811142] (-) TimerEvent: {}
+[3.822734] (turtlesim) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/spawn__type_support.cpp.o\x1b[0m\n'}
+[3.827156] (turtlesim) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/action/detail/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.837932] (turtlesim) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.844878] (turtlesim) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/spawn__type_support.c.o\x1b[0m\n'}
+[3.845137] (turtlesim) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.847023] (turtlesim) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_absolute__type_support.c.o\x1b[0m\n'}
+[3.875521] (turtlesim) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[3.884923] (turtlesim) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.890909] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlesim/srv/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[3.891115] (turtlesim) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim/srv/detail/teleport_relative__type_support.c.o\x1b[0m\n'}
+[3.913054] (-) TimerEvent: {}
+[3.938990] (turtlesim) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking C shared library libturtlesim__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.939184] (turtlesim) StdoutLine: {'line': b'[ 44%] Built target turtlesim__rosidl_typesupport_c\n'}
+[3.969557] (turtlesim) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/color__type_support.cpp.o\x1b[0m\n'}
+[3.977157] (turtlesim) StdoutLine: {'line': b'[ 45%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[4.013163] (-) TimerEvent: {}
+[4.015203] (turtlesim) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/msg/detail/pose__type_support.cpp.o\x1b[0m\n'}
+[4.042555] (turtlesim) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/action/detail/rotate_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[4.057186] (turtlesim) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/action/detail/dds_fastrtps/rotate_absolute__type_support.cpp.o\x1b[0m\n'}
+[4.113274] (-) TimerEvent: {}
+[4.155975] (turtlesim) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/kill__type_support.cpp.o\x1b[0m\n'}
+[4.196321] (turtlesim) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.209852] (turtlesim) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.213376] (-) TimerEvent: {}
+[4.265869] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[4.277748] (turtlesim) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/color__type_support_c.cpp.o\x1b[0m\n'}
+[4.313491] (-) TimerEvent: {}
+[4.413808] (-) TimerEvent: {}
+[4.459240] (turtlesim) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/color__type_support.cpp.o\x1b[0m\n'}
+[4.486120] (turtlesim) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/msg/detail/pose__type_support_c.cpp.o\x1b[0m\n'}
+[4.513923] (-) TimerEvent: {}
+[4.539817] (turtlesim) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/msg/detail/dds_fastrtps/pose__type_support.cpp.o\x1b[0m\n'}
+[4.564678] (turtlesim) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/kill__type_support.cpp.o\x1b[0m\n'}
+[4.614036] (-) TimerEvent: {}
+[4.637970] (turtlesim) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating include/turtlesim/moc_turtle_frame.cpp\x1b[0m\n'}
+[4.683102] (turtlesim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/spawn__type_support.cpp.o\x1b[0m\n'}
+[4.695507] (turtlesim) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/set_pen__type_support.cpp.o\x1b[0m\n'}
+[4.714143] (-) TimerEvent: {}
+[4.748395] (turtlesim) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtlesim.cpp.o\x1b[0m\n'}
+[4.780107] (turtlesim) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/turtle_teleop_key.dir/tutorials/teleop_turtle_key.cpp.o\x1b[0m\n'}
+[4.814255] (-) TimerEvent: {}
+[4.912494] (turtlesim) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/kill__type_support_c.cpp.o\x1b[0m\n'}
+[4.914348] (-) TimerEvent: {}
+[4.986959] (turtlesim) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/draw_square.dir/tutorials/draw_square.cpp.o\x1b[0m\n'}
+[5.014463] (-) TimerEvent: {}
+[5.058651] (turtlesim) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/mimic.dir/tutorials/mimic.cpp.o\x1b[0m\n'}
+[5.059593] (turtlesim) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle.cpp.o\x1b[0m\n'}
+[5.114568] (-) TimerEvent: {}
+[5.149220] (turtlesim) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.215953] (turtlesim) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/spawn__type_support.cpp.o\x1b[0m\n'}
+[5.216175] (-) TimerEvent: {}
+[5.316433] (-) TimerEvent: {}
+[5.376052] (turtlesim) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/set_pen__type_support_c.cpp.o\x1b[0m\n'}
+[5.416543] (-) TimerEvent: {}
+[5.516860] (-) TimerEvent: {}
+[5.617198] (-) TimerEvent: {}
+[5.654017] (turtlesim) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlesim/srv/detail/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[5.717323] (-) TimerEvent: {}
+[5.763211] (turtlesim) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_absolute__type_support.cpp.o\x1b[0m\n'}
+[5.817432] (-) TimerEvent: {}
+[5.831505] (turtlesim) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/spawn__type_support_c.cpp.o\x1b[0m\n'}
+[5.917550] (-) TimerEvent: {}
+[6.017876] (-) TimerEvent: {}
+[6.118216] (-) TimerEvent: {}
+[6.155321] (turtlesim) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.218328] (-) TimerEvent: {}
+[6.266726] (turtlesim) StdoutLine: {'line': b'[ 72%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[6.278957] (turtlesim) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlesim/srv/detail/dds_fastrtps/teleport_relative__type_support.cpp.o\x1b[0m\n'}
+[6.298007] (turtlesim) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_absolute__type_support_c.cpp.o\x1b[0m\n'}
+[6.318948] (turtlesim) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlesim/srv/detail/teleport_relative__type_support_c.cpp.o\x1b[0m\n'}
+[6.319168] (-) TimerEvent: {}
+[6.419447] (-) TimerEvent: {}
+[6.519804] (-) TimerEvent: {}
+[6.620182] (-) TimerEvent: {}
+[6.720545] (-) TimerEvent: {}
+[6.766706] (turtlesim) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/src/turtle_frame.cpp.o\x1b[0m\n'}
+[6.786601] (turtlesim) StdoutLine: {'line': b'[ 77%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.820661] (-) TimerEvent: {}
+[6.826035] (turtlesim) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library libturtlesim__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.901322] (turtlesim) StdoutLine: {'line': b'[ 78%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[6.914326] (turtlesim) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_node.dir/include/turtlesim/moc_turtle_frame.cpp.o\x1b[0m\n'}
+[6.920769] (-) TimerEvent: {}
+[6.930351] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[6.958416] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[6.989942] (turtlesim) StdoutLine: {'line': b'[ 80%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[7.020874] (-) TimerEvent: {}
+[7.121196] (-) TimerEvent: {}
+[7.221518] (-) TimerEvent: {}
+[7.321854] (-) TimerEvent: {}
+[7.422200] (-) TimerEvent: {}
+[7.522543] (-) TimerEvent: {}
+[7.622880] (-) TimerEvent: {}
+[7.724104] (-) TimerEvent: {}
+[7.824457] (-) TimerEvent: {}
+[7.924800] (-) TimerEvent: {}
+[8.028114] (-) TimerEvent: {}
+[8.128462] (-) TimerEvent: {}
+[8.228811] (-) TimerEvent: {}
+[8.329181] (-) TimerEvent: {}
+[8.429521] (-) TimerEvent: {}
+[8.529864] (-) TimerEvent: {}
+[8.630211] (-) TimerEvent: {}
+[8.730559] (-) TimerEvent: {}
+[8.830914] (-) TimerEvent: {}
+[8.931257] (-) TimerEvent: {}
+[9.035118] (-) TimerEvent: {}
+[9.135467] (-) TimerEvent: {}
+[9.235812] (-) TimerEvent: {}
+[9.336163] (-) TimerEvent: {}
+[9.436518] (-) TimerEvent: {}
+[9.536863] (-) TimerEvent: {}
+[9.637222] (-) TimerEvent: {}
+[9.737556] (-) TimerEvent: {}
+[9.837889] (-) TimerEvent: {}
+[9.938221] (-) TimerEvent: {}
+[10.038552] (-) TimerEvent: {}
+[10.138889] (-) TimerEvent: {}
+[10.239957] (-) TimerEvent: {}
+[10.266982] (turtlesim) StdoutLine: {'line': b'[ 80%] Built target turtlesim__py\n'}
+[10.297456] (turtlesim) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/action/_rotate_absolute_s.c.o\x1b[0m\n'}
+[10.340071] (-) TimerEvent: {}
+[10.440401] (-) TimerEvent: {}
+[10.540750] (-) TimerEvent: {}
+[10.541019] (turtlesim) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_color_s.c.o\x1b[0m\n'}
+[10.643961] (-) TimerEvent: {}
+[10.701032] (turtlesim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/msg/_pose_s.c.o\x1b[0m\n'}
+[10.744078] (-) TimerEvent: {}
+[10.844416] (-) TimerEvent: {}
+[10.863374] (turtlesim) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_kill_s.c.o\x1b[0m\n'}
+[10.944541] (-) TimerEvent: {}
+[11.002676] (turtlesim) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_set_pen_s.c.o\x1b[0m\n'}
+[11.036989] (turtlesim) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_spawn_s.c.o\x1b[0m\n'}
+[11.044654] (-) TimerEvent: {}
+[11.144969] (-) TimerEvent: {}
+[11.178871] (turtlesim) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_absolute_s.c.o\x1b[0m\n'}
+[11.214269] (turtlesim) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_generator_py.dir/rosidl_generator_py/turtlesim/srv/_teleport_relative_s.c.o\x1b[0m\n'}
+[11.245084] (-) TimerEvent: {}
+[11.345453] (-) TimerEvent: {}
+[11.384408] (turtlesim) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/libturtlesim__rosidl_generator_py.so\x1b[0m\n'}
+[11.445571] (-) TimerEvent: {}
+[11.446265] (turtlesim) StdoutLine: {'line': b'[ 89%] Built target turtlesim__rosidl_generator_py\n'}
+[11.485692] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.485922] (turtlesim) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[11.547955] (-) TimerEvent: {}
+[11.648297] (-) TimerEvent: {}
+[11.728069] (turtlesim) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.728308] (turtlesim) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.748418] (-) TimerEvent: {}
+[11.783979] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[11.785025] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.816676] (turtlesim) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/turtlesim__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.848537] (-) TimerEvent: {}
+[11.948909] (-) TimerEvent: {}
+[12.049275] (-) TimerEvent: {}
+[12.079221] (turtlesim) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.139446] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[12.149407] (-) TimerEvent: {}
+[12.249746] (-) TimerEvent: {}
+[12.350095] (-) TimerEvent: {}
+[12.450447] (-) TimerEvent: {}
+[12.550806] (-) TimerEvent: {}
+[12.651163] (-) TimerEvent: {}
+[12.751498] (-) TimerEvent: {}
+[12.851844] (-) TimerEvent: {}
+[12.952190] (-) TimerEvent: {}
+[13.042141] (turtlesim) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable turtle_teleop_key\x1b[0m\n'}
+[13.052303] (-) TimerEvent: {}
+[13.152626] (-) TimerEvent: {}
+[13.252969] (-) TimerEvent: {}
+[13.333170] (turtlesim) StdoutLine: {'line': b'[ 96%] Built target turtle_teleop_key\n'}
+[13.353093] (-) TimerEvent: {}
+[13.453427] (-) TimerEvent: {}
+[13.553759] (-) TimerEvent: {}
+[13.654110] (-) TimerEvent: {}
+[13.754439] (-) TimerEvent: {}
+[13.854763] (-) TimerEvent: {}
+[13.955102] (-) TimerEvent: {}
+[14.055425] (-) TimerEvent: {}
+[14.155760] (-) TimerEvent: {}
+[14.256083] (-) TimerEvent: {}
+[14.356415] (-) TimerEvent: {}
+[14.456736] (-) TimerEvent: {}
+[14.557090] (-) TimerEvent: {}
+[14.657416] (-) TimerEvent: {}
+[14.757743] (-) TimerEvent: {}
+[14.858080] (-) TimerEvent: {}
+[14.958416] (-) TimerEvent: {}
+[15.058747] (-) TimerEvent: {}
+[15.159091] (-) TimerEvent: {}
+[15.259433] (-) TimerEvent: {}
+[15.359768] (-) TimerEvent: {}
+[15.460122] (-) TimerEvent: {}
+[15.560460] (-) TimerEvent: {}
+[15.660798] (-) TimerEvent: {}
+[15.687680] (turtlesim) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX executable mimic\x1b[0m\n'}
+[15.760933] (-) TimerEvent: {}
+[15.861271] (-) TimerEvent: {}
+[15.961602] (-) TimerEvent: {}
+[16.061932] (-) TimerEvent: {}
+[16.113821] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target mimic\n'}
+[16.162053] (-) TimerEvent: {}
+[16.262376] (-) TimerEvent: {}
+[16.362717] (-) TimerEvent: {}
+[16.463059] (-) TimerEvent: {}
+[16.556308] (turtlesim) StdoutLine: {'line': b'[ 98%] \x1b[32m\x1b[1mLinking CXX executable draw_square\x1b[0m\n'}
+[16.563173] (-) TimerEvent: {}
+[16.663563] (-) TimerEvent: {}
+[16.763845] (-) TimerEvent: {}
+[16.864110] (-) TimerEvent: {}
+[16.964399] (-) TimerEvent: {}
+[17.022013] (turtlesim) StdoutLine: {'line': b'[ 98%] Built target draw_square\n'}
+[17.064523] (-) TimerEvent: {}
+[17.164799] (-) TimerEvent: {}
+[17.265061] (-) TimerEvent: {}
+[17.365316] (-) TimerEvent: {}
+[17.465583] (-) TimerEvent: {}
+[17.565849] (-) TimerEvent: {}
+[17.666101] (-) TimerEvent: {}
+[17.766373] (-) TimerEvent: {}
+[17.866649] (-) TimerEvent: {}
+[17.966922] (-) TimerEvent: {}
+[18.067170] (-) TimerEvent: {}
+[18.167415] (-) TimerEvent: {}
+[18.267680] (-) TimerEvent: {}
+[18.367948] (-) TimerEvent: {}
+[18.468193] (-) TimerEvent: {}
+[18.568464] (-) TimerEvent: {}
+[18.668726] (-) TimerEvent: {}
+[18.768964] (-) TimerEvent: {}
+[18.869229] (-) TimerEvent: {}
+[18.969555] (-) TimerEvent: {}
+[19.069851] (-) TimerEvent: {}
+[19.170122] (-) TimerEvent: {}
+[19.270405] (-) TimerEvent: {}
+[19.370695] (-) TimerEvent: {}
+[19.423302] (turtlesim) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_node\x1b[0m\n'}
+[19.470903] (-) TimerEvent: {}
+[19.571259] (-) TimerEvent: {}
+[19.671556] (-) TimerEvent: {}
+[19.771959] (-) TimerEvent: {}
+[19.872349] (-) TimerEvent: {}
+[19.972710] (-) TimerEvent: {}
+[20.073008] (-) TimerEvent: {}
+[20.173364] (-) TimerEvent: {}
+[20.273689] (-) TimerEvent: {}
+[20.373972] (-) TimerEvent: {}
+[20.474338] (-) TimerEvent: {}
+[20.574733] (-) TimerEvent: {}
+[20.675065] (-) TimerEvent: {}
+[20.775394] (-) TimerEvent: {}
+[20.875730] (-) TimerEvent: {}
+[20.976063] (-) TimerEvent: {}
+[21.070947] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim_node\n'}
+[21.076146] (-) TimerEvent: {}
+[21.080049] (turtlesim) CommandEnded: {'returncode': 0}
+[21.080511] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[21.088000] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim'], 'cwd': '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim', 'env': OrderedDict([('PROFILEHOME', ''), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('KDE_FULL_SESSION', 'true'), ('LANGUAGE', ''), ('USER', 'augustmenard'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '1246'), ('XDG_SESSION_TYPE', 'x11'), ('XCURSOR_SIZE', '24'), ('KONSOLE_VERSION', '211203'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/augustmenard'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/src'), ('DESKTOP_SESSION', 'plasma'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('SHELL_SESSION_ID', '26729238400447a3b9a82e44c5d32d99'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/augustmenard/.gtkrc:/home/augustmenard/.config/gtkrc'), ('XDG_SEAT_PATH', '/org/freedesktop/DisplayManager/Seat0'), ('KDE_SESSION_VERSION', '5'), ('KONSOLE_DBUS_SESSION', '/Sessions/1'), ('SYSTEMD_EXEC_PID', '1049'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('KONSOLE_DBUS_WINDOW', '/Windows/1'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'augustmenard'), ('WINDOWID', '73400327'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '0'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('COLORFGBG', '15;0'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('ROS_LOCALHOST_ONLY', '0'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/augustmenard/.gtkrc-2.0:/home/augustmenard/.config/gtkrc-2.0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/augustmenard-15Z95N-G-AAC6U1:@/tmp/.ICE-unix/1400,unix/augustmenard-15Z95N-G-AAC6U1:/tmp/.ICE-unix/1400'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('XCURSOR_THEME', 'Oxygen_Blue'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/home/augustmenard/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/tmp/ssh-XXXXXXtQZ5nd/agent.1112'), ('ROS_DOMAIN_ID', '50'), ('AMENT_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KONSOLE_DBUS_SERVICE', ':1.56'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('XDG_VTNR', '1'), ('PWD', '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/home/augustmenard/.config/kdedefaults:/etc/xdg/xdg-plasma:/etc/xdg:/usr/share/kubuntu-default-settings/kf5-settings'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/plasma:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/augustmenard/turtlebot3_ws/build/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/build/turtlebot3_example:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/augustmenard/turtlebot3_ws/install/turtlebot3:/home/augustmenard/turtlebot3_ws/install/turtlebot3_simulations:/home/augustmenard/turtlebot3_ws/install/turtlebot3_bringup:/home/augustmenard/turtlebot3_ws/install/turtlebot3_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_navigation2:/home/augustmenard/turtlebot3_ws/install/turtlebot3_fake_node:/home/augustmenard/turtlebot3_ws/install/turtlebot3_msgs:/home/augustmenard/turtlebot3_ws/install/turtlebot3_manipulation_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_gazebo:/home/augustmenard/turtlebot3_ws/install/turtlebot3_description:/home/augustmenard/turtlebot3_ws/install/turtlebot3_cartographer:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_examples:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/augustmenard/turtlebot3_ws/install/dynamixel_sdk:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[21.094668] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.094801] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[21.094890] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.094939] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.095000] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[21.095040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.095076] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[21.095134] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[21.095173] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[21.095222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[21.095273] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.095318] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[21.095363] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[21.095412] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[21.095469] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.095523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[21.095576] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[21.095627] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[21.095675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[21.095726] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[21.095777] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[21.095823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[21.095869] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[21.095934] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[21.095990] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[21.096040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[21.096089] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[21.096139] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[21.096191] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[21.096242] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[21.096291] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[21.096347] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[21.096397] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[21.096446] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[21.096495] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[21.096556] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[21.096606] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[21.096654] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.096702] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[21.096756] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.096803] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.096853] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[21.096907] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[21.096961] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[21.097014] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[21.097063] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[21.097113] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[21.097162] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[21.097209] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[21.097258] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[21.097367] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[21.097438] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[21.097535] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[21.097754] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so" to ""\n'}
+[21.097800] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.097858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.097897] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.097936] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[21.097994] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.098033] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.098071] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098121] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098220] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098257] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.098369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.098405] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[21.098489] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.098524] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[21.098624] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[21.098673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.098729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.098768] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[21.098820] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.098858] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.hpp\n'}
+[21.098922] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[21.098962] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[21.099011] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[21.099067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.099104] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[21.099160] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[21.099197] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[21.099252] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.099289] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.hpp\n'}
+[21.099345] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[21.099382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[21.099437] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[21.099473] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[21.099523] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[21.099575] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.hpp\n'}
+[21.099626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[21.099677] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp\n'}
+[21.099729] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[21.099778] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp\n'}
+[21.099829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[21.099884] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[21.099942] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[21.099992] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[21.100038] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[21.100086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[21.100136] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[21.100186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[21.100241] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.hpp\n'}
+[21.100293] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[21.100342] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[21.100388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.100441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.100493] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[21.100548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.100594] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[21.100630] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[21.100685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[21.100721] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.hpp\n'}
+[21.100776] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[21.100815] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[21.100860] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.hpp\n'}
+[21.100912] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[21.100964] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[21.101014] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.101070] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.101120] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.101154] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[21.101199] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.101286] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.101342] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[21.101380] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101416] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101467] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101526] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101565] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.101651] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.101712] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[21.101748] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101787] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.101823] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.101874] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[21.101998] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[21.102050] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.102102] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.102162] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.102198] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[21.102234] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[21.102288] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.102326] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.102362] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[21.102417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[21.102457] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[21.102513] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[21.102549] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[21.102607] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[21.102642] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[21.102692] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[21.102746] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[21.102799] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[21.102858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.102899] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.102938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[21.102995] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[21.103034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[21.103090] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[21.103127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.103176] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[21.103333] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so" to ""\n'}
+[21.103378] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[21.103542] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so" to ""\n'}
+[21.103588] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[21.103645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[21.103693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[21.103729] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.103764] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[21.103822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[21.103859] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[21.103915] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.103951] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[21.103999] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[21.104059] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104114] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104220] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[21.104268] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104319] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[21.104365] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104413] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[21.104463] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[21.104520] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[21.104558] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104613] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[21.104658] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.104693] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[21.104741] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[21.104953] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[21.105007] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[21.105164] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so" to ""\n'}
+[21.105216] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[21.105265] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[21.105331] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[21.105408] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[21.105461] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[21.105509] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[21.105557] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[21.105626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[21.105675] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[21.105728] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[21.105779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[21.105829] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[21.105878] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[21.105942] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[21.105991] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[21.106040] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[21.106086] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[21.106141] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[21.106195] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[21.106246] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[21.106297] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[21.106351] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[21.106404] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[21.106459] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[21.106514] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[21.106568] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.106677] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.106779] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.106865] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[21.106957] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[21.107056] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[21.107102] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[21.107151] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[21.107201] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[21.107251] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[21.107303] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[21.107353] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.107441] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.148568] (turtlesim) StdoutLine: {'line': b"Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[21.148694] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py'...\n"}
+[21.148743] (turtlesim) StdoutLine: {'line': b"Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[21.148785] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py'...\n"}
+[21.148826] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py'...\n"}
+[21.148866] (turtlesim) StdoutLine: {'line': b"Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[21.148929] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py'...\n"}
+[21.148971] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py'...\n"}
+[21.149011] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py'...\n"}
+[21.149057] (turtlesim) StdoutLine: {'line': b"Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[21.149097] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py'...\n"}
+[21.149136] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py'...\n"}
+[21.149175] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py'...\n"}
+[21.149214] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py'...\n"}
+[21.149252] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py'...\n"}
+[21.149291] (turtlesim) StdoutLine: {'line': b"Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py'...\n"}
+[21.152431] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.152644] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[21.152832] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.152945] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[21.153024] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[21.153328] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[21.153407] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[21.153557] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so" to ""\n'}
+[21.153626] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[21.153685] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[21.153751] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[21.153847] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[21.153927] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[21.153997] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[21.154119] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[21.154181] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[21.154236] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[21.154299] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[21.154373] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[21.154449] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[21.154525] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[21.154599] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[21.154674] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[21.154749] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[21.154826] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[21.154906] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[21.155034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[21.155127] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[21.155178] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[21.155272] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[21.155330] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[21.155381] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[21.155448] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[21.155521] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[21.155637] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[21.159931] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/turtlesim_node" to ""\n'}
+[21.159974] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[21.160894] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key" to ""\n'}
+[21.160971] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[21.162905] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/draw_square" to ""\n'}
+[21.162983] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[21.164695] (turtlesim) StdoutLine: {'line': b'-- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/lib/turtlesim/mimic" to ""\n'}
+[21.164772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images\n'}
+[21.164816] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[21.164855] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[21.164897] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[21.164968] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[21.165034] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[21.165073] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[21.165110] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[21.165146] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[21.165182] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[21.165240] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/launch\n'}
+[21.165277] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[21.165313] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[21.165364] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[21.165417] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[21.165468] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[21.165524] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[21.165588] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[21.165662] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[21.165730] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[21.165802] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[21.165867] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[21.165952] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[21.166048] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[21.166149] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[21.166222] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[21.166308] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[21.166382] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[21.166466] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[21.166541] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[21.166621] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[21.166701] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[21.166778] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[21.166857] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[21.166944] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[21.167026] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[21.167103] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[21.167186] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[21.167264] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[21.167341] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[21.167419] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[21.167490] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[21.167566] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[21.167638] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[21.167710] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[21.167785] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[21.167861] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[21.167938] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[21.168016] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[21.168070] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[21.168138] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[21.169862] (turtlesim) CommandEnded: {'returncode': 0}
+[21.176372] (-) TimerEvent: {}
+[21.186615] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[21.186991] (-) EventReactorShutdown: {}

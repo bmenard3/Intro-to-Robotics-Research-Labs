@@ -1,0 +1,8 @@
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:action/RotateAbsolute.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Color.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:msg/Pose.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Kill.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/SetPen.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/Spawn.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportAbsolute.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/Lab1_ws/build/turtlesim/rosidl_adapter/turtlesim:srv/TeleportRelative.idl
