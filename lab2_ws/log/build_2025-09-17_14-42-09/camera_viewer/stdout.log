@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/camera_viewer/camera_viewer.egg-info
+writing ../../build/camera_viewer/camera_viewer.egg-info/PKG-INFO
+writing dependency_links to ../../build/camera_viewer/camera_viewer.egg-info/dependency_links.txt
+writing entry points to ../../build/camera_viewer/camera_viewer.egg-info/entry_points.txt
+writing requirements to ../../build/camera_viewer/camera_viewer.egg-info/requires.txt
+writing top-level names to ../../build/camera_viewer/camera_viewer.egg-info/top_level.txt
+writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+reading manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+writing manifest file '../../build/camera_viewer/camera_viewer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer
+copying camera_viewer/__init__.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer
+copying camera_viewer/view_image_raw.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer
+copying camera_viewer/view_image_raw2.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer
+running install
+running install_lib
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer/__init__.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer/view_image_raw.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build/lib/camera_viewer/view_image_raw2.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/view_image_raw.py to view_image_raw.cpython-310.pyc
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer/view_image_raw2.py to view_image_raw2.cpython-310.pyc
+running install_data
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/ament_index
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/ament_index/resource_index
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/ament_index/resource_index/packages
+copying resource/camera_viewer -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/ament_index/resource_index/packages
+copying package.xml -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer
+running install_egg_info
+Copying ../../build/camera_viewer/camera_viewer.egg-info to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages/camera_viewer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing spherical_cows script to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/camera_viewer
+Installing wow_cool_name script to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/camera_viewer
+writing list of installed files to '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/install.log'
