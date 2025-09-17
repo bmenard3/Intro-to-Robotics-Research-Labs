@@ -1,0 +1,282 @@
+[0.072s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.072s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f8fae963100>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8fae962b90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8fae962b90>>, mixin_verb=('build',))
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.178s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.178s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extensions ['ignore', 'ignore_ament_install']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extension 'ignore'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extension 'ignore_ament_install'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extensions ['colcon_pkg']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extension 'colcon_pkg'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extensions ['colcon_meta']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extension 'colcon_meta'
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extensions ['ros']
+[0.187s] Level 1:colcon.colcon_core.package_identification:_identify(src/TeamRocket_object_follower) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/TeamRocket_object_follower' with type 'ros.ament_python' and name 'TeamRocket_object_follower'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/camera_viewer) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/camera_viewer' with type 'ros.ament_python' and name 'camera_viewer'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ignore_ament_install'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_pkg']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_pkg'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['colcon_meta']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'colcon_meta'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['ros']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'ros'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['cmake', 'python']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'cmake'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extensions ['python_setup_py']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials) by extension 'python_setup_py'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/ros_tutorials) ignored
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/roscpp_tutorials) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/rospy_tutorials) ignored
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_tutorials/turtlesim) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.191s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.215s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.217s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 16 installed packages in /home/augustmenard/turtlebot3_ws/install
+[0.218s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 363 installed packages in /opt/ros/humble
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.248s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'turtlesim' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding turtlesim
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'TeamRocket_object_follower' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'TeamRocket_object_follower' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower', 'merge_install': False, 'path': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'camera_viewer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'camera_viewer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer', 'merge_install': False, 'path': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/camera_viewer', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'turtlesim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim', 'merge_install': False, 'path': '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/ros_tutorials/turtlesim', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower' with build type 'ament_python'
+[0.251s] Level 1:colcon.colcon_core.shell:create_environment_hook('TeamRocket_object_follower', 'ament_prefix_path')
+[0.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/ament_prefix_path.ps1'
+[0.252s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/ament_prefix_path.dsv'
+[0.253s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/ament_prefix_path.sh'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.256s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/camera_viewer' with build type 'ament_python'
+[0.256s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_viewer', 'ament_prefix_path')
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.dsv'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/ros_tutorials/turtlesim' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/ros_tutorials/turtlesim'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.432s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower'
+[0.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.602s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/camera_viewer'
+[0.602s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.602s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim -- -j8 -l8
+[0.909s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim -- -j8 -l8
+[0.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim
+[0.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/camera_viewer': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/install.log --single-version-externally-managed install_data
+[0.921s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TeamRocket_object_follower build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log --single-version-externally-managed install_data
+[0.964s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.964s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/turtlebot3_ws/install/turtlebot3_teleop:/home/augustmenard/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/turtlesim
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim' for CMake module files
+[0.966s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim' for CMake config files
+[0.967s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.967s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.968s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib'
+[0.968s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/bin'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib/python3.10/site-packages'
+[0.969s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/bin'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[0.970s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.sh'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.bash'
+[0.971s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[0.972s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[0.973s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim)
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim' for CMake module files
+[0.973s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim' for CMake config files
+[0.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'cmake_prefix_path')
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.ps1'
+[0.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.dsv'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/cmake_prefix_path.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib'
+[0.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim', 'ld_library_path_lib')
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.ps1'
+[0.975s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.dsv'
+[0.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/hook/ld_library_path_lib.sh'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/bin'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib/pkgconfig/turtlesim.pc'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/lib/python3.10/site-packages'
+[0.976s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/bin'
+[0.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.ps1'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.dsv'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.sh'
+[0.977s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.bash'
+[0.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/turtlesim/package.zsh'
+[0.978s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/turtlesim/share/colcon-core/packages/turtlesim)
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower' for CMake module files
+[1.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower' returned '0': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TeamRocket_object_follower build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log --single-version-externally-managed install_data
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower' for CMake config files
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/bin'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/pkgconfig/TeamRocket_object_follower.pc'
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages'
+[1.141s] Level 1:colcon.colcon_core.shell:create_environment_hook('TeamRocket_object_follower', 'pythonpath')
+[1.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/pythonpath.ps1'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/pythonpath.dsv'
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/hook/pythonpath.sh'
+[1.142s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/bin'
+[1.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(TeamRocket_object_follower)
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/package.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/package.sh'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/package.bash'
+[1.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower/package.zsh'
+[1.144s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/colcon-core/packages/TeamRocket_object_follower)
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer' for CMake module files
+[1.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/camera_viewer' returned '0': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/camera_viewer build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/camera_viewer/install.log --single-version-externally-managed install_data
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer' for CMake config files
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/bin'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/pkgconfig/camera_viewer.pc'
+[1.147s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/lib/python3.10/site-packages'
+[1.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_viewer', 'pythonpath')
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.ps1'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/hook/pythonpath.sh'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/bin'
+[1.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_viewer)
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/package.ps1'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/package.dsv'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/package.sh'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/package.bash'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/camera_viewer/package.zsh'
+[1.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/camera_viewer/share/colcon-core/packages/camera_viewer)
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.150s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.150s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.154s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.175s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/local_setup.ps1'
+[1.176s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/_local_setup_util_ps1.py'
+[1.177s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/setup.ps1'
+[1.178s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/local_setup.sh'
+[1.179s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/_local_setup_util_sh.py'
+[1.179s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/setup.sh'
+[1.180s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/local_setup.bash'
+[1.181s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/setup.bash'
+[1.182s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/local_setup.zsh'
+[1.182s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/setup.zsh'
