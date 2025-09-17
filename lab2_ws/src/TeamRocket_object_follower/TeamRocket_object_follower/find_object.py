@@ -31,7 +31,8 @@ class FindObject(Node):
     
 
     def _image_callback(self, msg):
-        frame = msg
+        np_arr = np.frombuffer(msg.data, np.uint8)
+        frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
         hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
         y, x = hsv.shape[:2]
         xc = x // 2
