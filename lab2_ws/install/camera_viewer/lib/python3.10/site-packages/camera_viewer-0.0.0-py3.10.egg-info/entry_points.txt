@@ -1,0 +1,4 @@
+[console_scripts]
+spherical_cows = camera_viewer.view_image_raw:main
+wow_cool_name = camera_viewer.view_image_raw2:main
+

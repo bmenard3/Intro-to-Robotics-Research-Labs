@@ -1,0 +1,26 @@
+[0.661s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TeamRocket_object_follower build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log --single-version-externally-managed install_data
+[0.848s] running egg_info
+[0.849s] writing ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/PKG-INFO
+[0.849s] writing dependency_links to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/dependency_links.txt
+[0.849s] writing entry points to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/entry_points.txt
+[0.849s] writing requirements to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/requires.txt
+[0.849s] writing top-level names to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/top_level.txt
+[0.850s] reading manifest file '../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/SOURCES.txt'
+[0.850s] adding license file 'LICENSE'
+[0.851s] writing manifest file '../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/SOURCES.txt'
+[0.851s] running build
+[0.851s] running build_py
+[0.851s] copying TeamRocket_object_follower/rotate_robot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower
+[0.852s] running install
+[0.852s] running install_lib
+[0.853s] copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower/rotate_robot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower
+[0.853s] byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/rotate_robot.py to rotate_robot.cpython-310.pyc
+[0.854s] running install_data
+[0.854s] running install_egg_info
+[0.855s] removing '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[0.855s] Copying ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower-0.0.0-py3.10.egg-info
+[0.856s] running install_scripts
+[0.871s] Installing find_object script to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/TeamRocket_object_follower
+[0.871s] Installing rotate_robot script to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/TeamRocket_object_follower
+[0.871s] writing list of installed files to '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log'
+[0.892s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/src/TeamRocket_object_follower' returned '0': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/TeamRocket_object_follower build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log --single-version-externally-managed install_data

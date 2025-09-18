@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info
+writing ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/PKG-INFO
+writing dependency_links to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/dependency_links.txt
+writing entry points to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/entry_points.txt
+writing requirements to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/requires.txt
+writing top-level names to ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/top_level.txt
+writing manifest file '../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/SOURCES.txt'
+reading manifest file '../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower
+copying TeamRocket_object_follower/__init__.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower
+copying TeamRocket_object_follower/rotate_robot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower
+copying TeamRocket_object_follower/find_object.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower
+running install
+running install_lib
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower/__init__.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower/rotate_robot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/build/lib/TeamRocket_object_follower/find_object.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/rotate_robot.py to rotate_robot.cpython-310.pyc
+  File "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/rotate_robot.py", line 12
+    self.coordinate_callback
+    ^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/find_object.py to find_object.cpython-310.pyc
+running install_data
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/ament_index
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/ament_index/resource_index
+creating /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/ament_index/resource_index/packages
+copying resource/TeamRocket_object_follower -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/ament_index/resource_index/packages
+copying package.xml -> /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/share/TeamRocket_object_follower
+running install_egg_info
+Copying ../../build/TeamRocket_object_follower/TeamRocket_object_follower.egg-info to /home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/build/TeamRocket_object_follower/install.log'
