@@ -1,0 +1,45 @@
+[0.324s] Invoking command in '/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes': PYTHONPATH=/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed install_data
+[0.429s] running egg_info
+[0.429s] creating ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info
+[0.430s] writing ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/PKG-INFO
+[0.430s] writing dependency_links to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/dependency_links.txt
+[0.430s] writing entry points to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/entry_points.txt
+[0.430s] writing requirements to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/requires.txt
+[0.430s] writing top-level names to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/top_level.txt
+[0.430s] writing manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[0.430s] reading manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[0.431s] writing manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[0.431s] running build
+[0.431s] running build_py
+[0.431s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build
+[0.431s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib
+[0.431s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[0.431s] copying team_rocket_nodes/detect_object_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[0.431s] copying team_rocket_nodes/chase_object_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[0.431s] copying team_rocket_nodes/get_object_range_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[0.431s] copying team_rocket_nodes/__init__.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[0.431s] running install
+[0.431s] running install_lib
+[0.432s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[0.432s] copying /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/detect_object_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[0.432s] copying /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/chase_object_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[0.432s] copying /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/get_object_range_node.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[0.432s] copying /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/__init__.py -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[0.432s] byte-compiling /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/detect_object_node.py to detect_object_node.cpython-310.pyc
+[0.433s] byte-compiling /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/chase_object_node.py to chase_object_node.cpython-310.pyc
+[0.433s] byte-compiling /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/get_object_range_node.py to get_object_range_node.cpython-310.pyc
+[0.434s] byte-compiling /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/__init__.py to __init__.cpython-310.pyc
+[0.434s] running install_data
+[0.434s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/share/ament_index
+[0.434s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/share/ament_index/resource_index
+[0.434s] creating /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/share/ament_index/resource_index/packages
+[0.434s] copying resource/team_rocket_nodes -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/share/ament_index/resource_index/packages
+[0.434s] copying package.xml -> /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/share/team_rocket_nodes
+[0.434s] running install_egg_info
+[0.435s] Copying ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info to /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info
+[0.435s] running install_scripts
+[0.445s] Installing chase_object script to /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[0.445s] Installing detect_object script to /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[0.445s] Installing get_object_range script to /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[0.445s] writing list of installed files to '/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log'
+[0.456s] Invoked command in '/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes' returned '0': PYTHONPATH=/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/michaelangelo/teamRocket/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed install_data
