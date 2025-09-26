@@ -1,0 +1,36 @@
+[3.756s] Invoking command in '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes': PYTHONPATH=/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed
+[4.664s] running egg_info
+[4.720s] writing ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/PKG-INFO
+[4.722s] writing dependency_links to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/dependency_links.txt
+[4.723s] writing entry points to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/entry_points.txt
+[4.724s] writing requirements to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/requires.txt
+[4.725s] writing top-level names to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/top_level.txt
+[4.845s] reading manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[4.850s] writing manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[4.858s] running build
+[4.859s] running build_py
+[4.859s] running install
+[4.859s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.860s] !!
+[4.860s] 
+[4.860s]         ********************************************************************************
+[4.861s]         Please avoid running ``setup.py`` directly.
+[4.861s]         Instead, use pypa/build, pypa/installer or other
+[4.862s]         standards-based tools.
+[4.862s] 
+[4.863s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.863s]         ********************************************************************************
+[4.864s] 
+[4.864s] !!
+[4.864s]   self.initialize_options()
+[4.879s] running install_lib
+[4.950s] running install_data
+[5.007s] running install_egg_info
+[5.070s] removing '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[5.072s] Copying ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info
+[5.078s] running install_scripts
+[5.666s] Installing chase_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.667s] Installing detect_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.668s] Installing get_object_range script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.670s] writing list of installed files to '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log'
+[5.806s] Invoked command in '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes' returned '0': PYTHONPATH=/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed

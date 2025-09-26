@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.001718] (team_rocket_nodes) JobQueued: {'identifier': 'team_rocket_nodes', 'dependencies': OrderedDict()}
+[0.001936] (team_rocket_nodes) JobStarted: {'identifier': 'team_rocket_nodes'}
+[0.098655] (-) TimerEvent: {}
+[0.199619] (-) TimerEvent: {}
+[0.300814] (-) TimerEvent: {}
+[0.401485] (-) TimerEvent: {}
+[0.502160] (-) TimerEvent: {}
+[0.602882] (-) TimerEvent: {}
+[0.703554] (-) TimerEvent: {}
+[0.804270] (-) TimerEvent: {}
+[0.904937] (-) TimerEvent: {}
+[1.005602] (-) TimerEvent: {}
+[1.106288] (-) TimerEvent: {}
+[1.206920] (-) TimerEvent: {}
+[1.307910] (-) TimerEvent: {}
+[1.408848] (-) TimerEvent: {}
+[1.510128] (-) TimerEvent: {}
+[1.612280] (-) TimerEvent: {}
+[1.712927] (-) TimerEvent: {}
+[1.813585] (-) TimerEvent: {}
+[1.914277] (-) TimerEvent: {}
+[2.014897] (-) TimerEvent: {}
+[2.115535] (-) TimerEvent: {}
+[2.216258] (-) TimerEvent: {}
+[2.316924] (-) TimerEvent: {}
+[2.417560] (-) TimerEvent: {}
+[2.518194] (-) TimerEvent: {}
+[2.618876] (-) TimerEvent: {}
+[2.719518] (-) TimerEvent: {}
+[2.820228] (-) TimerEvent: {}
+[2.921104] (-) TimerEvent: {}
+[3.021719] (-) TimerEvent: {}
+[3.122376] (-) TimerEvent: {}
+[3.222978] (-) TimerEvent: {}
+[3.323644] (-) TimerEvent: {}
+[3.424461] (-) TimerEvent: {}
+[3.525140] (-) TimerEvent: {}
+[3.625992] (-) TimerEvent: {}
+[3.717389] (team_rocket_nodes) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../../build/team_rocket_nodes', 'build', '--build-base', '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build', 'install', '--record', '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log', '--single-version-externally-managed'], 'cwd': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.65 46978 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes/team_rocket_nodes', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install:/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '65', 'AMENT_PREFIX_PATH': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes:/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.65 46978 192.168.0.10 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[3.727654] (-) TimerEvent: {}
+[3.830001] (-) TimerEvent: {}
+[3.930741] (-) TimerEvent: {}
+[4.031391] (-) TimerEvent: {}
+[4.132100] (-) TimerEvent: {}
+[4.232771] (-) TimerEvent: {}
+[4.333378] (-) TimerEvent: {}
+[4.434008] (-) TimerEvent: {}
+[4.534657] (-) TimerEvent: {}
+[4.605780] (team_rocket_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[4.634798] (-) TimerEvent: {}
+[4.660426] (team_rocket_nodes) StdoutLine: {'line': b'writing ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/PKG-INFO\n'}
+[4.661718] (team_rocket_nodes) StdoutLine: {'line': b'writing dependency_links to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/dependency_links.txt\n'}
+[4.663141] (team_rocket_nodes) StdoutLine: {'line': b'writing entry points to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/entry_points.txt\n'}
+[4.664239] (team_rocket_nodes) StdoutLine: {'line': b'writing requirements to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/requires.txt\n'}
+[4.665018] (team_rocket_nodes) StdoutLine: {'line': b'writing top-level names to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/top_level.txt\n'}
+[4.734979] (-) TimerEvent: {}
+[4.782162] (team_rocket_nodes) StdoutLine: {'line': b"reading manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'\n"}
+[4.786741] (team_rocket_nodes) StdoutLine: {'line': b"writing manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'\n"}
+[4.787459] (team_rocket_nodes) StdoutLine: {'line': b'running build\n'}
+[4.787972] (team_rocket_nodes) StdoutLine: {'line': b'running build_py\n'}
+[4.789563] (team_rocket_nodes) StdoutLine: {'line': b'copying team_rocket_nodes/chase_object_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes\n'}
+[4.791253] (team_rocket_nodes) StdoutLine: {'line': b'running install\n'}
+[4.792232] (team_rocket_nodes) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[4.792789] (team_rocket_nodes) StderrLine: {'line': b'!!\n'}
+[4.793089] (team_rocket_nodes) StderrLine: {'line': b'\n'}
+[4.793376] (team_rocket_nodes) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.793696] (team_rocket_nodes) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[4.794033] (team_rocket_nodes) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.794428] (team_rocket_nodes) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.794764] (team_rocket_nodes) StderrLine: {'line': b'\n'}
+[4.795057] (team_rocket_nodes) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[4.795377] (team_rocket_nodes) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.795695] (team_rocket_nodes) StderrLine: {'line': b'\n'}
+[4.796003] (team_rocket_nodes) StderrLine: {'line': b'!!\n'}
+[4.796301] (team_rocket_nodes) StderrLine: {'line': b'  self.initialize_options()\n'}
+[4.813135] (team_rocket_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[4.835102] (-) TimerEvent: {}
+[4.868908] (team_rocket_nodes) StdoutLine: {'line': b'copying /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/chase_object_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes\n'}
+[4.872431] (team_rocket_nodes) StdoutLine: {'line': b'byte-compiling /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/chase_object_node.py to chase_object_node.cpython-310.pyc\n'}
+[4.877881] (team_rocket_nodes) StdoutLine: {'line': b'running install_data\n'}
+[4.935269] (-) TimerEvent: {}
+[4.937995] (team_rocket_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[4.995585] (team_rocket_nodes) StdoutLine: {'line': b"removing '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[4.997485] (team_rocket_nodes) StdoutLine: {'line': b'Copying ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info\n'}
+[5.003126] (team_rocket_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[5.035396] (-) TimerEvent: {}
+[5.135998] (-) TimerEvent: {}
+[5.236602] (-) TimerEvent: {}
+[5.337244] (-) TimerEvent: {}
+[5.437863] (-) TimerEvent: {}
+[5.538554] (-) TimerEvent: {}
+[5.578465] (team_rocket_nodes) StdoutLine: {'line': b'Installing chase_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes\n'}
+[5.579526] (team_rocket_nodes) StdoutLine: {'line': b'Installing detect_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes\n'}
+[5.580501] (team_rocket_nodes) StdoutLine: {'line': b'Installing get_object_range script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes\n'}
+[5.582559] (team_rocket_nodes) StdoutLine: {'line': b"writing list of installed files to '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log'\n"}
+[5.638850] (-) TimerEvent: {}
+[5.715694] (team_rocket_nodes) CommandEnded: {'returncode': 0}
+[5.739201] (-) TimerEvent: {}
+[5.840569] (-) TimerEvent: {}
+[5.925717] (team_rocket_nodes) JobEnded: {'identifier': 'team_rocket_nodes', 'rc': 0}
+[5.928549] (-) EventReactorShutdown: {}

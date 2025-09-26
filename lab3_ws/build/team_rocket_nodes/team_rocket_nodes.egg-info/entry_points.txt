@@ -2,4 +2,3 @@
 chase_object = team_rocket_nodes.chase_object_node:main
 detect_object = team_rocket_nodes.detect_object_node:main
 get_object_range = team_rocket_nodes.get_object_range_node:main
-

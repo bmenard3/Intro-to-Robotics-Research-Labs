@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+"""
+chase_object.py
+Authors: [Your Names Here]
+Date: September 2025
+
+ROS2 node that implements dual PID controllers to chase an object.
+Controls both angular rotation (to face object) and linear movement (to maintain distance).
+"""
 
 import rclpy
 from rclpy.node import Node
@@ -96,17 +104,20 @@ class ChaseObject(Node):
         # PID Controllers
         # Angular controller: controls rotation to face object
         self.angular_pid = PIDController(
-            kp=2.0,    # Proportional gain
-            ki=0.1,    # Integral gain (small to prevent windup)
-            kd=0.5,    # Derivative gain (helps with stability)
+            kp=3.5,    # Proportional gain
+            ki=0.0,
+            kd=0.0,
+            #kp=3.8
+            #ki=1.5,    # Integral gain (small to prevent windup)
+            #kd=0.5,    # Derivative gain (helps with stability)
             integral_limit=0.5  # Limit integral windup
         )
         
         # Linear controller: controls forward/backward motion to maintain distance
         self.linear_pid = PIDController(
-            kp=1.0,    # Proportional gain
-            ki=0.05,   # Small integral gain
-            kd=0.2,    # Derivative gain
+            kp=0.5,    # Proportional gain
+            ki=0.0,   # Small integral gain
+            kd=0.0,    # Derivative gain
             integral_limit=0.3  # Limit integral windup
         )
         
@@ -121,8 +132,12 @@ class ChaseObject(Node):
     def position_callback(self, msg):
         """Receive object position from get_object_range node."""
         self.object_angle = msg.x  # Angular position (radians)
-        self.object_distance = msg.y  # Linear distance (meters)
-        self.position_received = True
+        if self.object_angle == 0.0:
+            self.object_distance = 0.0
+            self.position_received = False
+        else:
+            self.object_distance = msg.y  # Linear distance (meters)
+            self.position_received = True
     
     def control_callback(self):
         """Main control loop - compute and publish velocity commands."""
@@ -138,7 +153,7 @@ class ChaseObject(Node):
             return
         
         # Compute control errors
-        angular_error = self.object_angle  # Error is the angle itself (want 0)
+        angular_error = -self.object_angle  # Negative because we want to turn toward object
         distance_error = self.object_distance - self.desired_distance  # Positive = too far, negative = too close
         
         current_time = time.time()
@@ -177,7 +192,7 @@ class ChaseObject(Node):
         )
         
         # Check if robot has reached target (within tolerance)
-        if (abs(angular_error) < self.angle_tolerance and 
+        if (abs(self.object_angle) < self.angle_tolerance and  # Use abs(object_angle) instead of abs(angular_error)
             abs(distance_error) < self.distance_tolerance and 
             self.object_distance > 0.0):
             self.get_logger().info('TARGET REACHED - Object tracking successful!')
