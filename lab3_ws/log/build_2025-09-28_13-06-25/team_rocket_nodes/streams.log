@@ -1,0 +1,42 @@
+[3.702s] Invoking command in '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes': PYTHONPATH=/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed
+[4.595s] running egg_info
+[4.655s] writing ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/PKG-INFO
+[4.657s] writing dependency_links to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/dependency_links.txt
+[4.658s] writing entry points to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/entry_points.txt
+[4.659s] writing requirements to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/requires.txt
+[4.660s] writing top-level names to ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/top_level.txt
+[4.773s] reading manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[4.778s] writing manifest file '../../../build/team_rocket_nodes/team_rocket_nodes.egg-info/SOURCES.txt'
+[4.779s] running build
+[4.780s] running build_py
+[4.781s] copying team_rocket_nodes/detect_object_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[4.782s] copying team_rocket_nodes/get_object_range_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes
+[4.785s] running install
+[4.786s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.786s] !!
+[4.787s] 
+[4.787s]         ********************************************************************************
+[4.788s]         Please avoid running ``setup.py`` directly.
+[4.788s]         Instead, use pypa/build, pypa/installer or other
+[4.788s]         standards-based tools.
+[4.788s] 
+[4.789s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.789s]         ********************************************************************************
+[4.790s] 
+[4.790s] !!
+[4.790s]   self.initialize_options()
+[4.807s] running install_lib
+[4.862s] copying /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/detect_object_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[4.864s] copying /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build/lib/team_rocket_nodes/get_object_range_node.py -> /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes
+[4.867s] byte-compiling /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/detect_object_node.py to detect_object_node.cpython-310.pyc
+[4.871s] byte-compiling /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes/get_object_range_node.py to get_object_range_node.cpython-310.pyc
+[4.876s] running install_data
+[4.931s] running install_egg_info
+[4.994s] removing '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[4.996s] Copying ../../../build/team_rocket_nodes/team_rocket_nodes.egg-info to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages/team_rocket_nodes-0.0.0-py3.10.egg-info
+[5.002s] running install_scripts
+[5.576s] Installing chase_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.577s] Installing detect_object script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.578s] Installing get_object_range script to /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/team_rocket_nodes
+[5.580s] writing list of installed files to '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log'
+[5.712s] Invoked command in '/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/lab3_ws/src/team_rocket_nodes' returned '0': PYTHONPATH=/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/prefix_override:/home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/install/team_rocket_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/team_rocket_nodes build --build-base /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/build install --record /home/burger/lab3/Intro-to-Robotics-Research-Labs/lab3_ws/build/team_rocket_nodes/install.log --single-version-externally-managed
