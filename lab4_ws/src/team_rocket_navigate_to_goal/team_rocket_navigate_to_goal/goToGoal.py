@@ -117,7 +117,7 @@ class GoToGoal(Node):
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
             self.get_logger().info(f'Distance to goal: {d}')
-            target_angle = math.atan2(dy, dx)
+            target_angle = math.atan2(dy, dx) * (180/np.pi)
             d_theta = target_angle - self.globalAng
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             if d > 0.05:
