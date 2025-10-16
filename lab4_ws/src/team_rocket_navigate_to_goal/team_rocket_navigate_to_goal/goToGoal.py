@@ -163,8 +163,8 @@ class GoToGoal(Node):
             msg.angular.x = 0.0
             msg.angular.y = 0.0
             msg.angular.z = 0.0
-            if (time.time() - self.wait_start) > 10:
-                if self.current_goal <= self.waypoints.shape()[0]:
+            if (time.time() - self.wait_start) > 2:
+                if self.current_goal <= self.waypoints.shape():
                     self.current_goal += 1
                     self.state = 0
                 else:
