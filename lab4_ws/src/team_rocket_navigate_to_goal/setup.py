@@ -1,4 +1,7 @@
+# Team Members: August Menard and Leo Liu
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'team_rocket_navigate_to_goal'
 
@@ -10,6 +13,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', 'team_rocket_navigate_to_goal','launch'), glob('launch/*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -20,6 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'go_to_goal = team_rocket_navigate_to_goal:main',
+            'get_object_range = team_rocket_navigate_to_goal.getObjectRange:main'
         ],
     },
 )
