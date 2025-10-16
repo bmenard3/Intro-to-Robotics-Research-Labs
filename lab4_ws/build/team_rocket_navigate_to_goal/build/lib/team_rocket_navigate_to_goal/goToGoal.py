@@ -121,7 +121,7 @@ class GoToGoal(Node):
             d_theta = target_angle - self.globalAng
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             if d > 0.05:
-                msg.linear.x = 1.0
+                msg.linear.x = 0.1
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
                 msg.angular.x = 0.0
