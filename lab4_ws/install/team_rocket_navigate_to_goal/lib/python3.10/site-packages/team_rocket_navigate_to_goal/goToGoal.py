@@ -194,7 +194,8 @@ class GoToGoal(Node):
         #We subtract the initial values
         self.globalPos.x = Mrot.item((0,0))*position.x + Mrot.item((0,1))*position.y - self.Init_pos.x
         self.globalPos.y = Mrot.item((1,0))*position.x + Mrot.item((1,1))*position.y - self.Init_pos.y
-        self.globalAng = orientation - self.Init_ang
+        globalAng = orientation - self.Init_ang
+        self.globalAng = math.atan2(math.sin(globalAng), math.cos(globalAng))
         #self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
 
 def main(args=None):
