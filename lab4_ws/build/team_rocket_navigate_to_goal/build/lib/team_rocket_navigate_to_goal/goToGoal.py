@@ -86,14 +86,14 @@ class GoToGoal(Node):
         self.wait_start = 0
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
-        self.waypoints = np.array([[1.0, 0], [0.0, 1.4]])
+        self.waypoints = np.array([[1.0, 0], [0, 0]])
         self.current_goal = 0
         self.goal_pos = Point()
         self.goal_pos.x = 0.0
         self.goal_pos.y = 0.0
 
         self.angular_pid = PIDController(
-            kp=1.5,
+            kp=0.1,
             ki=2.0,
             kd=0.0,
             integral_limit=3.0
@@ -116,12 +116,12 @@ class GoToGoal(Node):
             dx = self.goal_pos.x - self.globalPos.x
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
-            #self.get_logger().info(f'Distance to goal: {d}')
+            self.get_logger().info(f'Distance to goal: {d}')
             target_angle = math.atan2(dy, dx)
             #self.get_logger().info(f'Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
-            self.get_logger().info(f'current angle: {self.globalAng}')
-            self.get_logger().info(f'd_theta: {d_theta}')
+            #self.get_logger().info(f'current angle: {self.globalAng}')
+            #self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if d > 0.05:
@@ -164,8 +164,11 @@ class GoToGoal(Node):
             msg.angular.y = 0.0
             msg.angular.z = 0.0
             if (time.time() - self.wait_start) > 10:
-                self.state = 0
-                self.current_goal += 1
+                if self.current_goal <= self.waypoints.shape()[0]:
+                    self.current_goal += 1
+                    self.state = 0
+                else:
+                    self.get_logger().info('Completed')
         
         self.vel_publisher.publish(msg)
 
@@ -192,7 +195,7 @@ class GoToGoal(Node):
         self.globalPos.x = Mrot.item((0,0))*position.x + Mrot.item((0,1))*position.y - self.Init_pos.x
         self.globalPos.y = Mrot.item((1,0))*position.x + Mrot.item((1,1))*position.y - self.Init_pos.y
         self.globalAng = orientation - self.Init_ang
-        #self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
+        self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
 
 def main(args=None):
     rclpy.init(args=args)
