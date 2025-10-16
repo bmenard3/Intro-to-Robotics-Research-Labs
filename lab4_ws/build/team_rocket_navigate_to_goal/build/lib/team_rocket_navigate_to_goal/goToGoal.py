@@ -93,9 +93,9 @@ class GoToGoal(Node):
         self.goal_pos.y = 0.0
 
         self.angular_pid = PIDController(
-            kp=4.0,
-            ki=1.2,
-            kd=1.0,
+            kp=2.0,
+            ki=1.0,
+            kd=0.0,
             integral_limit=0.5
         )
         self.max_angular_speed = 1.0
@@ -120,6 +120,7 @@ class GoToGoal(Node):
             target_angle = math.atan2(dy, dx) * (180/np.pi)
             d_theta = target_angle - self.globalAng
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
+            self.get_logger().info(f"angular velocity = {angular_velocity}")
             if d > 0.05:
                 msg.linear.x = 0.1
                 msg.linear.y = 0.0
@@ -182,7 +183,7 @@ class GoToGoal(Node):
         self.globalPos.x = Mrot.item((0,0))*position.x + Mrot.item((0,1))*position.y - self.Init_pos.x
         self.globalPos.y = Mrot.item((1,0))*position.x + Mrot.item((1,1))*position.y - self.Init_pos.y
         self.globalAng = orientation - self.Init_ang
-        self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
+        #self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
 
 def main(args=None):
     rclpy.init(args=args)
