@@ -86,7 +86,7 @@ class GoToGoal(Node):
         self.wait_start = 0
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
-        self.waypoints = np.array([[1.0, 0], [0, 0]])
+        self.waypoints = np.array([[0, 1], [0, 0]])
         self.current_goal = 0
         self.goal_pos = Point()
         self.goal_pos.x = 0.0
@@ -121,7 +121,7 @@ class GoToGoal(Node):
             #self.get_logger().info(f'Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
             #self.get_logger().info(f'current angle: {self.globalAng}')
-            #self.get_logger().info(f'd_theta: {d_theta}')
+            self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if d > 0.05:
@@ -195,7 +195,7 @@ class GoToGoal(Node):
         self.globalPos.x = Mrot.item((0,0))*position.x + Mrot.item((0,1))*position.y - self.Init_pos.x
         self.globalPos.y = Mrot.item((1,0))*position.x + Mrot.item((1,1))*position.y - self.Init_pos.y
         self.globalAng = orientation - self.Init_ang
-        self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
+        #self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
 
 def main(args=None):
     rclpy.init(args=args)
