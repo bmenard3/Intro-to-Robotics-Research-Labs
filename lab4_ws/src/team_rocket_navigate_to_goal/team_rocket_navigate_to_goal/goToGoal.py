@@ -70,7 +70,7 @@ class GoToGoal(Node):
         )
         self.vel_publisher = self.create_publisher(
             Twist,
-            'cmd_vel',
+            '/cmd_vel',
             10
         )
         timer_period = 0.1
