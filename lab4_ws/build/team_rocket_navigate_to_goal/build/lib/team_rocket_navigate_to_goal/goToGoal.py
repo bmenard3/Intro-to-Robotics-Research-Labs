@@ -117,7 +117,7 @@ class GoToGoal(Node):
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
             #self.get_logger().info(f'Distance to goal: {d}')
-            target_angle = math.atan2(dy, dx) * (180/np.pi)
+            target_angle = math.atan2(dy, dx)
             #self.get_logger().info(f'Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
             self.get_logger().info(f'current angle: {self.globalAng}')
@@ -125,7 +125,10 @@ class GoToGoal(Node):
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if d > 0.05:
-                msg.linear.x = 0.1
+                if math.abs(d_theta) > 0.1:
+                    msg.linear.x = 0.0
+                else:
+                    msg.linear.x = 0.1
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
                 msg.angular.x = 0.0
