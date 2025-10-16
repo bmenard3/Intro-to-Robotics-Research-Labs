@@ -103,6 +103,7 @@ class GoToGoal(Node):
         self.get_logger().info(f'Initialized with state {self.state}')
         
     def odom_callback(self, msg):
+        self.get_logger().info('odom_callback()')
         self.update_Odometry(msg)
 
     def range_callback(self, msg):
