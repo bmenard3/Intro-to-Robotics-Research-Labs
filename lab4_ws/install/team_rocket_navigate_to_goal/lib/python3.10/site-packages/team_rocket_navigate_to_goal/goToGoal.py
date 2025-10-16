@@ -93,7 +93,7 @@ class GoToGoal(Node):
         self.goal_pos.y = 0.0
 
         self.angular_pid = PIDController(
-            kp=2.0,
+            kp=0.5,
             ki=2.0,
             kd=0.0,
             integral_limit=0.5
