@@ -103,7 +103,6 @@ class GoToGoal(Node):
         self.get_logger().info(f'Initialized with state {self.state}')
         
     def odom_callback(self, msg):
-        self.get_logger().info('odom_callback()')
         self.update_Odometry(msg)
 
     def range_callback(self, msg):
@@ -112,12 +111,12 @@ class GoToGoal(Node):
     def navigation(self):
         msg = Twist()
         if self.state == 0: # Go To Goal
-            self.get_logger().info(f'Going to Goal')
             self.goal_pos.x = self.waypoints[self.current_goal, 0]
             self.goal_pos.y = self.waypoints[self.current_goal, 1]
             dx = self.goal_pos.x - self.globalPos.x
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
+            self.get_logger().info(f'Distance to goal: {d}')
             target_angle = math.atan2(dy, dx)
             d_theta = target_angle - self.globalAng
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
