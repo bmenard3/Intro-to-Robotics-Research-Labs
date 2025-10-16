@@ -99,6 +99,8 @@ class GoToGoal(Node):
             integral_limit=0.5
         )
         self.max_angular_speed = 1.0
+
+        self.get_logger().info(f'Initialized with state {self.state}')
         
     def odom_callback(self, msg):
         self.update_Odometry(msg)
@@ -109,6 +111,7 @@ class GoToGoal(Node):
     def navigation(self):
         msg = Twist()
         if self.state == 0: # Go To Goal
+            self.get_logger().info(f'Going to Goal')
             self.goal_pos.x = self.waypoints[self.current_goal, 0]
             self.goal_pos.y = self.waypoints[self.current_goal, 1]
             dx = self.goal_pos.x - self.globalPos.x
@@ -143,6 +146,7 @@ class GoToGoal(Node):
             msg.angular.z = 0.0
 
         elif self.state == 2: # Wait At Goal
+            self.get_logger().info(f'Waiting at Goal')
             msg.linear.x = 0.0
             msg.linear.y = 0.0
             msg.linear.z = 0.0
@@ -151,6 +155,7 @@ class GoToGoal(Node):
             msg.angular.z = 0.0
             if (time.time() - self.wait_start) > 10:
                 self.state = 0
+                self.current_goal += 1
         
         self.vel_publisher.publish(msg)
 
@@ -177,6 +182,7 @@ class GoToGoal(Node):
         self.globalPos.x = Mrot.item((0,0))*position.x + Mrot.item((0,1))*position.y - self.Init_pos.x
         self.globalPos.y = Mrot.item((1,0))*position.x + Mrot.item((1,1))*position.y - self.Init_pos.y
         self.globalAng = orientation - self.Init_ang
+        self.get_logger().info(f'Current Position: x = {self.globalPos.x}, y = {self.globalPos.y}, theta = {self.globalAng}')
 
 def main(args=None):
     rclpy.init(args=args)
