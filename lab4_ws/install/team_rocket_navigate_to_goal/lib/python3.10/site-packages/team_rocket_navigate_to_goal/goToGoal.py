@@ -95,8 +95,8 @@ class GoToGoal(Node):
         self.angular_pid = PIDController(
             kp=0.5,
             ki=2.0,
-            kd=0.0,
-            integral_limit=0.5
+            kd=1.0,
+            integral_limit=3.0
         )
         self.max_angular_speed = 1.0
 
