@@ -125,7 +125,7 @@ class GoToGoal(Node):
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if d > 0.05:
-                if math.abs(d_theta) > 0.1:
+                if abs(d_theta) > 0.1:
                     msg.linear.x = 0.0
                 else:
                     msg.linear.x = 0.1
