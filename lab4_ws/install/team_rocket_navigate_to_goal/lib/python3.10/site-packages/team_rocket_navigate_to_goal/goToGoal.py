@@ -94,7 +94,7 @@ class GoToGoal(Node):
 
         self.angular_pid = PIDController(
             kp=2.0,
-            ki=0.0,
+            ki=2.0,
             kd=0.0,
             integral_limit=0.5
         )
