@@ -172,7 +172,7 @@ class GoToGoal(Node):
                 self.wait_start = time.time()
 
         elif self.state == 1: # Avoid Obstacles
-            if abs(closest_angle - (math.pi / 2)) > 0.2:
+            if abs(closest_angle - (math.pi / 2)) > 0.27:
                 self.get_logger().info(f'State 1: turning, {abs(closest_angle - (math.pi / 2))}')
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
