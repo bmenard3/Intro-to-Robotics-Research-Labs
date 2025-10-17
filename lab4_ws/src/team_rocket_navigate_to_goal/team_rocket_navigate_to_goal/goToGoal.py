@@ -117,7 +117,8 @@ class GoToGoal(Node):
         self.ranges = msg.data
     
     def angle_callback(self, msg):
-        self.angles = msg.data
+        angles = np.array(msg.data)
+        self.angles = list((angles + np.pi) % (2 * np.pi) - np.pi)
     
     def navigation(self):
         msg = Twist()
