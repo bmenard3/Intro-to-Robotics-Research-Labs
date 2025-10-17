@@ -94,7 +94,7 @@ class GoToGoal(Node):
         self.angles = [math.pi]
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
-        self.waypoints = np.array([[1.0, 0.0], [1.0, 1.0]])
+        self.waypoints = np.array([[1.5, 0.0], [1.5, 1.4]])
         self.current_goal = 0
         self.goal_pos = Point()
         self.goal_pos.x = 0.0
