@@ -33,7 +33,7 @@ class GetObjectRange(Node):
         self.angle_min = msg.angle_min
         self.angle_max = msg.angle_max
         self.ranges = msg.ranges
-        self.get_logger().info(f'angle_min={self.angle_min}, angle_max={self.angle_max}, min range:{min(self.ranges)}')
+        self.get_logger().info(f'angle_min={self.angle_min}, increment={msg.angle_increment}')
     
     def timer_callback(self):
         msg = Float32()
