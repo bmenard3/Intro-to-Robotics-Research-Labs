@@ -140,7 +140,7 @@ class GoToGoal(Node):
             #self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
-            if (closest_range < 0.21) and (abs(closest_angle) < (math.pi/8)):
+            if (closest_range < 0.3) and (abs(closest_angle) < (math.pi/4)):
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
