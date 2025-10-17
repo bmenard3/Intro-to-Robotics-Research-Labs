@@ -126,19 +126,20 @@ class GoToGoal(Node):
         closest_range = self.ranges[closest_scan]
         closest_angle = self.angles[closest_scan]
         if self.state == 0: # Go To Goal
+            self.get_logger().info('State 0')
             self.goal_pos.x = self.waypoints[self.current_goal, 0]
             self.goal_pos.y = self.waypoints[self.current_goal, 1]
             dx = self.goal_pos.x - self.globalPos.x
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
-            self.get_logger().info(f'Distance to goal: {d}')
+            #self.get_logger().info(f'Distance to goal: {d}')
             target_angle = math.atan2(dy, dx)
-            self.get_logger().info(f'Target angle: {target_angle}')
+            #self.get_logger().info(f'Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
-            self.get_logger().info(f'current angle: {self.globalAng}')
-            self.get_logger().info(f'd_theta: {d_theta}')
+            #self.get_logger().info(f'current angle: {self.globalAng}')
+            #self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
-            self.get_logger().info(f"angular velocity = {angular_velocity}")
+            #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if (closest_range < 0.17) and (abs(closest_angle) < (math.pi/8)):
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
@@ -171,7 +172,7 @@ class GoToGoal(Node):
                 self.wait_start = time.time()
 
         elif self.state == 1: # Avoid Obstacles
-            self.get_logger().info(f'min range = {self.ranges[closest_scan]}, min_angle = {self.angles[closest_scan]}')
+            self.get_logger().info(f'State 1')
             if abs(closest_angle - (math.pi / 2)) > 0.1:
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
@@ -179,13 +180,22 @@ class GoToGoal(Node):
                 msg.angular.x = 0.0
                 msg.angular.y = 0.0
                 msg.angular.z = 0.1 * (closest_angle - (math.pi / 2))
-            else:
+            elif closest_range > 0.22:
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
                 msg.angular.x = 0.0
                 msg.angular.y = 0.0
                 msg.angular.z = 0.0
+                self.state = 0
+            else:
+                msg.linear.x = 1.0
+                msg.linear.y = 0.0
+                msg.linear.z = 0.0
+                msg.angular.x = 0.0
+                msg.angular.y = 0.0
+                msg.angular.z = 0.0
+                
 
         elif self.state == 2: # Wait At Goal
             self.get_logger().info(f'Waiting at Goal')
