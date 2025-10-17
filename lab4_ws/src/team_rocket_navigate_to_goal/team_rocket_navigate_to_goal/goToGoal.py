@@ -82,7 +82,7 @@ class GoToGoal(Node):
         self.Init_ang = 0.0
         self.globalPos = Point()
         self.globalAng = 0.0
-        self.state = 0
+        self.state = 1
         self.wait_start = 0
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
