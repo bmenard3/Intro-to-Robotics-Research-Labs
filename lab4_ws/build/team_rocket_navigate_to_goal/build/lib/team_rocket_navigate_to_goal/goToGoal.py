@@ -90,8 +90,8 @@ class GoToGoal(Node):
         self.globalAng = 0.0
         self.state = 1
         self.wait_start = 0
-		self.ranges = []
-		self.angles = []
+        self.ranges = [0]
+        self.angles = [0]
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
         self.waypoints = np.array([[0.0, 1.0], [1.0, 1.0]])

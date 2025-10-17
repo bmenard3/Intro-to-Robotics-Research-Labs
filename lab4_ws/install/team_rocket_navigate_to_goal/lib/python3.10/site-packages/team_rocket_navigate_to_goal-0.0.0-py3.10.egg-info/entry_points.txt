@@ -1,3 +1,4 @@
 [console_scripts]
 getObjectRange = team_rocket_navigate_to_goal.getObjectRange:main
 goToGoal = team_rocket_navigate_to_goal.goToGoal:main
+
