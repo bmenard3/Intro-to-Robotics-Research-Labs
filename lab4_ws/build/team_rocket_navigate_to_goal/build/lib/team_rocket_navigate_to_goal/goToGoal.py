@@ -123,6 +123,8 @@ class GoToGoal(Node):
     def navigation(self):
         msg = Twist()
         closest_scan = self.ranges.index(min(self.ranges))
+        closest_range = self.ranges[closest_scan]
+        closest_angle = self.angles[closest_scan]
         if self.state == 0: # Go To Goal
             self.goal_pos.x = self.waypoints[self.current_goal, 0]
             self.goal_pos.y = self.waypoints[self.current_goal, 1]
@@ -137,7 +139,15 @@ class GoToGoal(Node):
             self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             self.get_logger().info(f"angular velocity = {angular_velocity}")
-            if d > 0.05:
+            if (closest_range < 0.17) and (abs(closest_angle) < (math.pi/8)):
+                msg.linear.x = 0.0
+                msg.linear.y = 0.0
+                msg.linear.z = 0.0
+                msg.angular.x = 0.0
+                msg.angular.y = 0.0
+                msg.angular.z = 0.0
+                self.state = 1
+            elif d > 0.05:
                 if abs(d_theta) > 0.1:
                     msg.linear.x = 0.0
                 else:
@@ -162,12 +172,20 @@ class GoToGoal(Node):
 
         elif self.state == 1: # Avoid Obstacles
             self.get_logger().info(f'min range = {self.ranges[closest_scan]}, min_angle = {self.angles[closest_scan]}')
-            msg.linear.x = 0.0
-            msg.linear.y = 0.0
-            msg.linear.z = 0.0
-            msg.angular.x = 0.0
-            msg.angular.y = 0.0
-            msg.angular.z = 0.0
+            if abs(closest_angle - (math.pi / 2)) > 0.1:
+                msg.linear.x = 0.0
+                msg.linear.y = 0.0
+                msg.linear.z = 0.0
+                msg.angular.x = 0.0
+                msg.angular.y = 0.0
+                msg.angular.z = 0.1 * (closest_angle - (math.pi / 2))
+            else:
+                msg.linear.x = 0.0
+                msg.linear.y = 0.0
+                msg.linear.z = 0.0
+                msg.angular.x = 0.0
+                msg.angular.y = 0.0
+                msg.angular.z = 0.0
 
         elif self.state == 2: # Wait At Goal
             self.get_logger().info(f'Waiting at Goal')
