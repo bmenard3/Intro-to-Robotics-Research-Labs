@@ -2,7 +2,7 @@ import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy, QoSHistoryPolicy
 from sensor_msgs.msg import LaserScan
-from std_msgs.msg import Float32
+from std_msgs.msg import Float32MultiArray
 import numpy as np
 
 class GetObjectRange(Node):
@@ -20,9 +20,14 @@ class GetObjectRange(Node):
             self.scan_callback,
             qos_profile
         )
-        self.publisher_ = self.create_publisher(
-            Float32,
-            '/obstacle_detection',
+        self.range_publisher = self.create_publisher(
+            Float32MultiArray,
+            '/ranges',
+            10
+        )
+        self.angle_publisher = self.create_publisher(
+            Float32MultiArray,
+            '/angles',
             10
         )
         timer_period = 0.1
@@ -35,12 +40,16 @@ class GetObjectRange(Node):
         self.angle_increment = msg.angle_increment
         self.ranges = msg.ranges
         self.angles = list(np.arange(self.angle_min, self.angle_max, self.angle_increment))
-        min_index = self.ranges.index(min(self.ranges))
-        self.get_logger().info(f'min range = {self.ranges[min_index]}, min_angle = {self.angles[min_index]}')
+        
     
     def timer_callback(self):
-        msg = Float32()
-        msg.data = 0.0
+        angle_msg = Float32MultiArray()
+        angle_msg.data = self.angles
+        range_msg = Float32MultiArray()
+        range_msg.data = self.ranges
+        self.angle_publisher.publish(angle_msg)
+        self.range_publisher.publish(range_msg)
+
         
 
 
