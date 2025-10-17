@@ -140,7 +140,7 @@ class GoToGoal(Node):
             #self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
-            if (closest_range < 0.17) and (abs(closest_angle) < (math.pi/8)):
+            if (closest_range < 0.21) and (abs(closest_angle) < (math.pi/8)):
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
@@ -173,13 +173,13 @@ class GoToGoal(Node):
 
         elif self.state == 1: # Avoid Obstacles
             self.get_logger().info(f'State 1')
-            if abs(closest_angle - (math.pi / 2)) > 0.1:
+            if abs(closest_angle - (math.pi / 2)) > 0.2:
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
                 msg.linear.z = 0.0
                 msg.angular.x = 0.0
                 msg.angular.y = 0.0
-                msg.angular.z = 0.1 * (closest_angle - (math.pi / 2))
+                msg.angular.z = 0.5 * (closest_angle - (math.pi / 2))
             elif closest_range > 0.22:
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
