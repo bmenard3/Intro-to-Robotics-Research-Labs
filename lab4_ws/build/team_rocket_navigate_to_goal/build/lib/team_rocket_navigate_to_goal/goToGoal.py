@@ -88,13 +88,13 @@ class GoToGoal(Node):
         self.Init_ang = 0.0
         self.globalPos = Point()
         self.globalAng = 0.0
-        self.state = 1
+        self.state = 0
         self.wait_start = 0
-        self.ranges = [0]
-        self.angles = [0]
+        self.ranges = [0.5]
+        self.angles = [math.pi]
 
         #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
-        self.waypoints = np.array([[0.0, 1.0], [1.0, 1.0]])
+        self.waypoints = np.array([[1.0, 0.0], [1.0, 1.0]])
         self.current_goal = 0
         self.goal_pos = Point()
         self.goal_pos.x = 0.0
@@ -131,7 +131,7 @@ class GoToGoal(Node):
             dx = self.goal_pos.x - self.globalPos.x
             dy = self.goal_pos.y - self.globalPos.y
             d = math.sqrt(dx**2 + dy**2)
-            #self.get_logger().info(f'Distance to goal: {d}')
+            self.get_logger().info(f'Distance to goal: {d}')
             target_angle = math.atan2(dy, dx)
             self.get_logger().info(f'Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
