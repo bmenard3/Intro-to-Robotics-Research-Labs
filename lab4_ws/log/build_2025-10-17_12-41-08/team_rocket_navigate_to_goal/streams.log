@@ -1,0 +1,39 @@
+[3.824s] Invoking command in '/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/src/team_rocket_navigate_to_goal': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_navigate_to_goal build --build-base /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/build install --record /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/install.log --single-version-externally-managed
+[4.762s] running egg_info
+[4.822s] writing ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/PKG-INFO
+[4.824s] writing dependency_links to ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/dependency_links.txt
+[4.825s] writing entry points to ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/entry_points.txt
+[4.826s] writing requirements to ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/requires.txt
+[4.827s] writing top-level names to ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/top_level.txt
+[4.951s] reading manifest file '../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/SOURCES.txt'
+[4.953s] adding license file 'LICENSE'
+[4.956s] writing manifest file '../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info/SOURCES.txt'
+[4.957s] running build
+[4.958s] running build_py
+[4.958s] copying team_rocket_navigate_to_goal/goToGoal.py -> /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/build/lib/team_rocket_navigate_to_goal
+[4.961s] running install
+[4.962s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.963s] !!
+[4.963s] 
+[4.964s]         ********************************************************************************
+[4.964s]         Please avoid running ``setup.py`` directly.
+[4.964s]         Instead, use pypa/build, pypa/installer or other
+[4.965s]         standards-based tools.
+[4.965s] 
+[4.965s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.966s]         ********************************************************************************
+[4.967s] 
+[4.967s] !!
+[4.967s]   self.initialize_options()
+[4.984s] running install_lib
+[5.042s] copying /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/build/lib/team_rocket_navigate_to_goal/goToGoal.py -> /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages/team_rocket_navigate_to_goal
+[5.045s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages/team_rocket_navigate_to_goal/goToGoal.py to goToGoal.cpython-310.pyc
+[5.054s] running install_data
+[5.112s] running install_egg_info
+[5.179s] removing '/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages/team_rocket_navigate_to_goal-0.0.0-py3.10.egg-info' (and everything under it)
+[5.181s] Copying ../../build/team_rocket_navigate_to_goal/team_rocket_navigate_to_goal.egg-info to /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages/team_rocket_navigate_to_goal-0.0.0-py3.10.egg-info
+[5.188s] running install_scripts
+[5.806s] Installing getObjectRange script to /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/team_rocket_navigate_to_goal
+[5.807s] Installing goToGoal script to /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/team_rocket_navigate_to_goal
+[5.809s] writing list of installed files to '/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/install.log'
+[5.947s] Invoked command in '/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/src/team_rocket_navigate_to_goal' returned '0': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/install/team_rocket_navigate_to_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_navigate_to_goal build --build-base /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/build install --record /home/burger/Intro-to-Robotics-Research-Labs/lab4_ws/build/team_rocket_navigate_to_goal/install.log --single-version-externally-managed

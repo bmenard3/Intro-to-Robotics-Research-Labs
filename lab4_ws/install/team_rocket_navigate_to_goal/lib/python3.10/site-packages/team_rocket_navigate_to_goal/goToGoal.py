@@ -93,8 +93,8 @@ class GoToGoal(Node):
         self.ranges = [0.5]
         self.angles = [math.pi]
 
-        #self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
-        self.waypoints = np.array([[1.5, 0.0], [1.5, 1.4]])
+        self.waypoints = np.array([[1.5, 0], [1.5, 1.4], [0, 1.4]])
+        #self.waypoints = np.array([[1.5, 0.0], [1.5, 1.4]])
         self.current_goal = 0
         self.goal_pos = Point()
         self.goal_pos.x = 0.0
@@ -134,10 +134,10 @@ class GoToGoal(Node):
             d = math.sqrt(dx**2 + dy**2)
             #self.get_logger().info(f'Distance to goal: {d}')
             target_angle = math.atan2(dy, dx)
-            #self.get_logger().info(f'Target angle: {target_angle}')
+            #self.get_logger().info(f'Distance to goal: {d}, Target angle: {target_angle}')
             d_theta = target_angle - self.globalAng
             #self.get_logger().info(f'current angle: {self.globalAng}')
-            #self.get_logger().info(f'd_theta: {d_theta}')
+            self.get_logger().info(f'd_theta: {d_theta}')
             angular_velocity = self.angular_pid.compute(d_theta, time.time())
             #self.get_logger().info(f"angular velocity = {angular_velocity}")
             if (closest_range < 0.3) and (abs(closest_angle) < (math.pi/4)):
