@@ -3,7 +3,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy, QoSHistoryPolicy
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist, Point
-from std_msgs.msg import Float32
+from std_msgs.msg import Float32MultiArray
 import numpy as np
 import math
 import time
@@ -57,9 +57,15 @@ class GoToGoal(Node):
             depth = 1
         )
         self.range_subscriber = self.create_subscriber = self.create_subscription(
-            Float32,
-            '/obstacle_detection',
+            Float32MultiArray,
+            '/ranges',
             self.range_callback,
+            qos_profile
+        )
+        self.angle_subscriber = self.create_subscriber = self.create_subscription(
+            Float32MultiArray,
+            '/angles',
+            self.angle_callback,
             qos_profile
         )
         self.odom_subscriber = self.create_subscriber = self.create_subscription(
@@ -106,10 +112,14 @@ class GoToGoal(Node):
         self.update_Odometry(msg)
 
     def range_callback(self, msg):
-        a = msg
+        self.ranges = msg.data
+    
+    def angle_callback(self, msg):
+        self.angles = msg.data
     
     def navigation(self):
         msg = Twist()
+        closest_scan = self.ranges.index(min(self.ranges))
         if self.state == 0: # Go To Goal
             self.goal_pos.x = self.waypoints[self.current_goal, 0]
             self.goal_pos.y = self.waypoints[self.current_goal, 1]
@@ -148,6 +158,7 @@ class GoToGoal(Node):
                 self.wait_start = time.time()
 
         elif self.state == 1: # Avoid Obstacles
+            self.get_logger().info(f'min range = {self.ranges[closest_scan]}, min_angle = {self.angles[closest_scan]}')
             msg.linear.x = 0.0
             msg.linear.y = 0.0
             msg.linear.z = 0.0
