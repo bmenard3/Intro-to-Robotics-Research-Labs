@@ -35,7 +35,8 @@ class GetObjectRange(Node):
         self.angle_increment = msg.angle_increment
         self.ranges = msg.ranges
         self.angles = list(np.arange(self.angle_min, self.angle_max, self.angle_increment))
-        self.get_logger().info(f'ranges length = {len(self.ranges)}, angles length = {len(self.angles)}')
+	min_index = self.ranges.index(min(self.ranges))
+        self.get_logger().info(f'min range = {self.ranges[min_index]}, min_angle = {self.angles[min_index]')
     
     def timer_callback(self):
         msg = Float32()
