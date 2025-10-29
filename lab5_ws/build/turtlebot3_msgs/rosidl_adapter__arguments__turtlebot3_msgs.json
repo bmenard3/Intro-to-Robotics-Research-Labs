@@ -1,0 +1,12 @@
+{
+  "package_name": "turtlebot3_msgs",
+  "non_idl_tuples": [
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:msg/SensorState.msg",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:msg/Sound.msg",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:msg/VersionInfo.msg",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:srv/Sound.srv",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:srv/Dqn.srv",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:srv/Goal.srv",
+    "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/src/turtlebot3_msgs:action/Patrol.action"
+  ]
+}

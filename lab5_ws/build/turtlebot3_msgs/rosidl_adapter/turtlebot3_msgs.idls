@@ -1,0 +1,7 @@
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/SensorState.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/Sound.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:msg/VersionInfo.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Sound.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Dqn.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:srv/Goal.idl
+/home/augustmenard/Intro-to-Robotics-Research-Labs/lab5_ws/build/turtlebot3_msgs/rosidl_adapter/turtlebot3_msgs:action/Patrol.idl
