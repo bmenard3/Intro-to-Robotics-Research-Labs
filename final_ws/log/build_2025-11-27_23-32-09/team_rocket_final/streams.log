@@ -1,0 +1,26 @@
+[0.917s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed install_data
+[1.164s] running egg_info
+[1.165s] writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+[1.165s] writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+[1.165s] writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+[1.165s] writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+[1.165s] writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+[1.167s] reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[1.167s] adding license file 'LICENSE'
+[1.168s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[1.168s] running build
+[1.168s] running build_py
+[1.168s] copying team_rocket_final/moveRobot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[1.168s] running install
+[1.169s] running install_lib
+[1.169s] copying /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[1.170s] byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot.py to moveRobot.cpython-310.pyc
+[1.172s] running install_data
+[1.172s] running install_egg_info
+[1.174s] removing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info' (and everything under it)
+[1.174s] Copying ../../build/team_rocket_final/team_rocket_final.egg-info to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info
+[1.174s] running install_scripts
+[1.192s] Installing getObjectRange script to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[1.193s] Installing moveRobot script to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[1.193s] writing list of installed files to '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log'
+[1.213s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '0': PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed install_data

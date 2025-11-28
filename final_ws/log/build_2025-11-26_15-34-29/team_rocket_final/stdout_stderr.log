@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+running build
+running build_py
+copying team_rocket_final/moveRobot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+running install
+running install_lib
+copying /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot.py -> /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+byte-compiling /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot.py to moveRobot.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/team_rocket_final/team_rocket_final.egg-info to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info
+running install_scripts
+Installing getObjectRange script to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+Installing moveRobot script to /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+writing list of installed files to '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log'

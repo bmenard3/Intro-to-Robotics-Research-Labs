@@ -1,0 +1,87 @@
+[0.064s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node
+[0.685s] -- The C compiler identification is GNU 11.4.0
+[0.685s] -- The CXX compiler identification is GNU 11.4.0
+[0.685s] -- Detecting C compiler ABI info
+[0.685s] -- Detecting C compiler ABI info - done
+[0.685s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.685s] -- Detecting C compile features
+[0.685s] -- Detecting C compile features - done
+[0.685s] -- Detecting CXX compiler ABI info
+[0.892s] -- Detecting CXX compiler ABI info - done
+[0.922s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.923s] -- Detecting CXX compile features
+[0.929s] -- Detecting CXX compile features - done
+[0.941s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.512s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.885s] -- Found dynamixel_sdk: 3.8.4 (/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[1.893s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.054s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.078s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.105s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.159s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.227s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.404s] -- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+[2.575s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.591s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.895s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.002s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.110s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.143s] -- Looking for pthread.h
+[3.363s] -- Looking for pthread.h - found
+[3.364s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.582s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.582s] -- Found Threads: TRUE  
+[3.761s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.813s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.856s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[3.905s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[3.937s] -- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)
+[4.219s] -- Found turtlebot3_msgs: 2.4.0 (/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake)
+[4.442s] -- Configuring done
+[4.494s] -- Generating done
+[4.505s] -- Build files have been written to: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node
+[4.532s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node
+[4.533s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node -- -j8 -l8
+[4.690s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[4.691s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[4.702s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[4.702s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[4.707s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[4.709s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[4.710s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[4.726s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[6.176s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[17.232s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[18.418s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[31.394s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[31.856s] [ 85%] Built target turtlebot3_node_lib
+[31.872s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[34.847s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[36.743s] [100%] Built target turtlebot3_ros
+[36.751s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node -- -j8 -l8
+[36.753s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node
+[36.758s] -- Install configuration: ""
+[36.758s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/param
+[36.758s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/param/burger.yaml
+[36.759s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle_pi.yaml
+[36.759s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/param/waffle.yaml
+[36.759s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros
+[36.767s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/lib/turtlebot3_node/turtlebot3_ros" to ""
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/ament_index/resource_index/package_run_dependencies/turtlebot3_node
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/ament_index/resource_index/parent_prefix_path/turtlebot3_node
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.sh
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/environment/ament_prefix_path.dsv
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.sh
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/environment/path.dsv
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.bash
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.sh
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.zsh
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/local_setup.dsv
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/package.dsv
+[36.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/ament_index/resource_index/packages/turtlebot3_node
+[36.768s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_dependencies-extras.cmake
+[36.768s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[36.768s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig.cmake
+[36.768s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/cmake/turtlebot3_nodeConfig-version.cmake
+[36.768s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_node/share/turtlebot3_node/package.xml
+[36.769s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node' returned '0': AMENT_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk:/opt/ros/humble LD_LIBRARY_PATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PYTHONPATH=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/dynamixel_sdk/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_node
