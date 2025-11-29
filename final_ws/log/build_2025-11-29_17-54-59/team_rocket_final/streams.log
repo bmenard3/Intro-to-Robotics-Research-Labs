@@ -1,0 +1,27 @@
+[0.407s] Invoking command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final': PS1=(.7785lab6) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.7785lab6) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build --no-deps symlink_data
+[0.576s] running develop
+[0.665s] running egg_info
+[0.665s] creating team_rocket_final.egg-info
+[0.665s] writing team_rocket_final.egg-info/PKG-INFO
+[0.665s] writing dependency_links to team_rocket_final.egg-info/dependency_links.txt
+[0.665s] writing entry points to team_rocket_final.egg-info/entry_points.txt
+[0.665s] writing requirements to team_rocket_final.egg-info/requires.txt
+[0.665s] writing top-level names to team_rocket_final.egg-info/top_level.txt
+[0.665s] writing manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+[0.666s] reading manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+[0.667s] writing manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+[0.668s] running build_ext
+[0.668s] Creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team-rocket-final.egg-link (link to .)
+[0.668s] Installing getObjectRange script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.668s] Installing moveRobot script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.668s] 
+[0.668s] Installed /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final
+[0.669s] running symlink_data
+[0.669s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index
+[0.669s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index
+[0.669s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+[0.669s] symbolically linking /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/resource/team_rocket_final -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+[0.669s] symbolically linking /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/package.xml -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
+[0.669s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/launch
+[0.669s] symbolically linking /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/launch/team_rocket_final_launch.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/launch
+[0.687s] Invoked command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final' returned '0': PS1=(.7785lab6) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.7785lab6) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build --no-deps symlink_data

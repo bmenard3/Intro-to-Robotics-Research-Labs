@@ -12,6 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name, ['team_rocket_final/best_model_small.pth']),  # Updated path
         (os.path.join('share', 'team_rocket_final', 'launch'), glob('launch/*'))
     ],
     install_requires=['setuptools'],

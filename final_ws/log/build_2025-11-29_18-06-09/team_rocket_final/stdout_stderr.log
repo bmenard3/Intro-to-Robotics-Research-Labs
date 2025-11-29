@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing team_rocket_final.egg-info/PKG-INFO
+writing dependency_links to team_rocket_final.egg-info/dependency_links.txt
+writing entry points to team_rocket_final.egg-info/entry_points.txt
+writing requirements to team_rocket_final.egg-info/requires.txt
+writing top-level names to team_rocket_final.egg-info/top_level.txt
+reading manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+writing manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team-rocket-final.egg-link (link to .)
+Installing getObjectRange script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+Installing moveRobot script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+
+Installed /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final
+running symlink_data
+symbolically linking /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/team_rocket_final/best_model_small.pth -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final

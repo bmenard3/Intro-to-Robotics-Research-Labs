@@ -1,3 +1,4 @@
+#! /home/venv/.7785lab6/bin python3
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy, QoSHistoryPolicy
