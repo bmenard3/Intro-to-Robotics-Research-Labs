@@ -1,0 +1,341 @@
+[0.026s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo -- -j8 -l8
+[0.056s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.221s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.221s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.221s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.221s]   problems in calling code that expects `find_package` result variables
+[0.221s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.221s] Call Stack (most recent call first):
+[0.221s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.221s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.221s]   CMakeLists.txt:23 (find_package)
+[0.221s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.222s] [0m
+[0.245s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.281s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.282s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.287s] -- Searching for dependencies of ignition-math6
+[0.288s] -- Looking for OGRE...
+[0.295s] -- Found Ogre Ghadamon (1.9.0)
+[0.295s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.308s] -- Looking for OGRE_Paging...
+[0.308s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.308s] -- Looking for OGRE_Terrain...
+[0.308s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.308s] -- Looking for OGRE_Property...
+[0.308s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.309s] -- Looking for OGRE_RTShaderSystem...
+[0.309s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.309s] -- Looking for OGRE_Volume...
+[0.309s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.309s] -- Looking for OGRE_Overlay...
+[0.309s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.473s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.474s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.474s] -- Searching for dependencies of ignition-transport8
+[0.488s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.499s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.503s] -- Checking for module 'libzmq >= 4'
+[0.513s] --   Found libzmq , version 4.3.4
+[0.548s] -- Checking for module 'uuid'
+[0.557s] --   Found uuid, version 2.37.2
+[0.580s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.580s] -- Searching for dependencies of ignition-msgs5
+[0.597s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.602s] -- Checking for module 'tinyxml2'
+[0.614s] --   Found tinyxml2, version 9.0.0
+[0.640s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.640s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.641s] -- Searching for dependencies of ignition-common3
+[0.641s] -- Looking for dlfcn.h - found
+[0.641s] -- Looking for libdl - found
+[0.653s] -- Searching for <ignition-common3> component [graphics]
+[0.654s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.654s] -- Searching for dependencies of ignition-common3-graphics
+[0.654s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.655s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.655s] -- Searching for dependencies of ignition-fuel_tools4
+[0.685s] -- Checking for module 'jsoncpp'
+[0.695s] --   Found jsoncpp, version 1.9.5
+[0.725s] -- Checking for module 'libzip'
+[0.739s] --   Found libzip, version 1.7.3
+[0.768s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.769s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.769s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.771s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[0.771s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.795s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.799s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.807s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.820s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.884s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.906s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.938s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.941s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.132s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.157s] -- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)
+[1.279s] -- Configuring done
+[1.392s] -- Generating done
+[1.423s] -- Build files have been written to: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo
+[1.523s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[1.523s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[1.523s] [35m[1mConsolidate compiler generated dependencies of target traffic_light_plugin[0m
+[1.523s] [35m[1mConsolidate compiler generated dependencies of target traffic_bar_plugin[0m
+[1.527s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[1.527s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[1.565s] [ 16%] Built target turtlebot3_drive
+[1.607s] [ 33%] Built target obstacle2
+[1.617s] [ 50%] Built target traffic_light_plugin
+[1.626s] [ 66%] Built target obstacles
+[1.630s] [ 83%] Built target traffic_bar_plugin
+[1.634s] [100%] Built target obstacle1
+[1.681s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo -- -j8 -l8
+[1.682s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo
+[1.713s] -- Install configuration: ""
+[1.714s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive
+[1.719s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch
+[1.719s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/spawn_turtlebot3.launch.py
+[1.719s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/robot_state_publisher.launch.py
+[1.719s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/7785_maze.launch.py
+[1.720s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/empty_world.launch.py
+[1.720s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_autorace_2020.launch.py
+[1.720s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_spawn_turtlebot3.launch.py
+[1.720s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_house.launch.py
+[1.721s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage4.launch.py
+[1.721s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage2.launch.py
+[1.723s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_world.launch.py
+[1.723s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/multi_robot.launch.py
+[1.723s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage1.launch.py
+[1.723s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//launch/turtlebot3_dqn_stage3.launch.py
+[1.724s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models
+[1.724s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.sdf
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model-1_4.sdf
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle/model.config
+[1.725s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.sdf
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model-1_4.sdf
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger_cam/model.config
+[1.725s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi
+[1.725s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.sdf
+[1.729s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model.config
+[1.729s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_waffle_pi/model-1_4_.sdf
+[1.729s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world
+[1.730s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.sdf
+[1.730s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model-1_4.sdf
+[1.730s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/model.config
+[1.730s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes
+[1.731s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/wall.dae
+[1.731s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_world/meshes/hexagon.dae
+[1.731s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020
+[1.731s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light
+[1.731s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.sdf
+[1.732s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/model.config
+[1.732s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials
+[1.732s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts
+[1.732s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/scripts/traffic_light.material
+[1.732s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures
+[1.733s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light.png
+[1.733s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_red.png
+[1.733s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_green.png
+[1.733s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_light/materials/textures/traffic_light_yellow.png
+[1.734s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry
+[1.734s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.sdf
+[1.734s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/model.config
+[1.735s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials
+[1.735s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts
+[1.735s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/scripts/traffic_noentry.material
+[1.739s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures
+[1.739s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_noentry/materials/textures/traffic_noentry.png
+[1.740s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel
+[1.740s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.sdf
+[1.740s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/model.config
+[1.741s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials
+[1.741s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts
+[1.741s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/scripts/tunnel.material
+[1.741s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures
+[1.741s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_tunnel/materials/textures/tunnel.png
+[1.742s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction
+[1.742s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.sdf
+[1.743s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/model.config
+[1.743s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials
+[1.743s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts
+[1.743s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/scripts/traffic_construction.material
+[1.743s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures
+[1.743s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_construction/materials/textures/traffic_construction.png
+[1.744s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar
+[1.744s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.sdf
+[1.744s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/model.config
+[1.745s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials
+[1.745s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts
+[1.745s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/scripts/traffic_bar.material
+[1.745s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures
+[1.745s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_bar/materials/textures/traffic_bar.png
+[1.747s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right
+[1.748s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.sdf
+[1.751s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/model.config
+[1.751s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials
+[1.751s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts
+[1.752s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/scripts/traffic_right.material
+[1.752s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures
+[1.752s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_right/materials/textures/traffic_right.png
+[1.753s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left
+[1.753s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.sdf
+[1.753s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/model.config
+[1.753s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials
+[1.753s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts
+[1.753s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/scripts/traffic_pl_left.material
+[1.754s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures
+[1.754s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_pl_left/materials/textures/traffic_pl_left.png
+[1.755s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker
+[1.755s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.sdf
+[1.755s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/model.config
+[1.759s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials
+[1.759s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/checker.png
+[1.759s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts
+[1.759s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/scripts/checker.material
+[1.760s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures
+[1.760s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/checker/materials/textures/checker.png
+[1.760s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course
+[1.760s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.sdf
+[1.761s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/model.config
+[1.761s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials
+[1.761s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts
+[1.761s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/scripts/course.material
+[1.761s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures
+[1.762s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/course/materials/textures/course.png
+[1.762s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop
+[1.762s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.sdf
+[1.763s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/model.config
+[1.763s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials
+[1.763s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts
+[1.763s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/scripts/traffic_stop.material
+[1.763s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures
+[1.763s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_stop/materials/textures/traffic_stop.png
+[1.764s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left
+[1.764s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.sdf
+[1.764s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/model.config
+[1.765s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials
+[1.765s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts
+[1.765s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/scripts/traffic_is_left.material
+[1.767s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures
+[1.767s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_left/materials/textures/traffic_left.png
+[1.768s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection
+[1.771s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.sdf
+[1.771s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/model.config
+[1.771s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials
+[1.771s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts
+[1.771s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/scripts/traffic_intersection.material
+[1.771s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures
+[1.771s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_intersection/materials/textures/traffic_intersection.png
+[1.772s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking
+[1.772s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.sdf
+[1.772s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/model.config
+[1.772s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials
+[1.772s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts
+[1.772s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/scripts/traffic_parking.material
+[1.772s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures
+[1.773s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_autorace_2020/traffic_parking/materials/textures/traffic_parking.png
+[1.773s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house
+[1.773s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.sdf
+[1.778s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_house/model.config
+[1.778s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze
+[1.778s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/model.sdf
+[1.779s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/model.config
+[1.779s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes
+[1.779s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/8508388149468536489_diffuseColor.png
+[1.780s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/FLOOR1.png
+[1.780s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/15110686115335782429_diffuseColor.png
+[1.781s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/white_brick_wall1.jpg
+[1.781s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/7785_maze.dae
+[1.782s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/7785_maze/meshes/drywall.jpg
+[1.786s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world
+[1.786s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.sdf
+[1.786s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box
+[1.786s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.sdf
+[1.787s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/goal_box/model.config
+[1.787s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles
+[1.787s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.sdf
+[1.788s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacles/model.config
+[1.788s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/model.config
+[1.788s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls
+[1.788s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.sdf
+[1.788s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/inner_walls/model.config
+[1.792s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1
+[1.792s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.sdf
+[1.792s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle1/model.config
+[1.792s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2
+[1.792s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.sdf
+[1.792s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_dqn_world/obstacle2/model.config
+[1.793s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common
+[1.793s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/model.config
+[1.793s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes
+[1.793s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels
+[1.793s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/left_tire.stl
+[1.796s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/wheels/right_tire.stl
+[1.804s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/burger_base.dae
+[1.804s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/lds.dae
+[1.805s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/tire.dae
+[1.805s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_base.dae
+[1.805s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases
+[1.806s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_base.stl
+[1.861s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/waffle_pi_base.stl
+[1.896s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/bases/burger_base.stl
+[1.908s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors
+[1.909s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.jpg
+[1.912s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.jpg
+[1.913s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/astra.dae
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/lds.stl
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/sensors/r200.dae
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/waffle_pi_base.dae
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_common/meshes/r200.dae
+[1.943s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.sdf
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model-1_4.sdf
+[1.943s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//models/turtlebot3_burger/model.config
+[1.945s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz
+[1.945s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//rviz/tb3_gazebo.rviz
+[1.945s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf
+[1.945s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle_pi.urdf
+[1.945s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger.urdf
+[1.946s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/common_properties.urdf
+[1.946s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_burger_cam.urdf
+[1.946s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//urdf/turtlebot3_waffle.urdf
+[1.950s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds
+[1.950s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage3.world
+[1.951s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/7785_maze.world
+[1.951s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage4.world
+[1.951s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_autorace_2020.world
+[1.956s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_house.world
+[1.956s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_world.world
+[1.956s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/empty_world.world
+[1.956s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage1.world
+[1.956s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo//worlds/turtlebot3_dqn_stage2.world
+[1.956s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include/
+[1.956s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo
+[1.957s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacles.hpp
+[1.961s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_bar_plugin.hpp
+[1.962s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/traffic_light_plugin.hpp
+[1.962s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/turtlebot3_drive.hpp
+[1.962s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle1.hpp
+[1.962s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/include//turtlebot3_gazebo/obstacle2.hpp
+[1.964s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/package_run_dependencies/turtlebot3_gazebo
+[1.964s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/parent_prefix_path/turtlebot3_gazebo
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.sh
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/ament_prefix_path.dsv
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.sh
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/environment/path.dsv
+[1.965s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.bash
+[1.965s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.sh
+[1.965s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.zsh
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/local_setup.dsv
+[1.965s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv
+[1.965s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/ament_index/resource_index/packages/turtlebot3_gazebo
+[1.965s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.971s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.971s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake
+[1.971s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
+[1.971s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.xml
+[1.977s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_gazebo

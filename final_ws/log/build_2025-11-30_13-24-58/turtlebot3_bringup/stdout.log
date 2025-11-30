@@ -1,0 +1,36 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_bringup
+-- Install configuration: ""
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/turtlebot3_state_publisher.launch.py
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/robot.launch.py
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/camera.launch.py
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/launch/rviz2.launch.py
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/burger.yaml
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle_pi.yaml
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/waffle.yaml
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/burger.yaml
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle_pi.yaml
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/param/humble/waffle.yaml
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/99-turtlebot3-cdc.rules
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/script/create_udev_rules
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/ament_index/resource_index/package_run_dependencies/turtlebot3_bringup
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/ament_index/resource_index/parent_prefix_path/turtlebot3_bringup
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.sh
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/environment/path.dsv
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.bash
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.sh
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.zsh
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/local_setup.dsv
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.dsv
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/ament_index/resource_index/packages/turtlebot3_bringup
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig.cmake
+-- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/cmake/turtlebot3_bringupConfig-version.cmake
+-- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_bringup/share/turtlebot3_bringup/package.xml

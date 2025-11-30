@@ -12,7 +12,9 @@ setup.py
 launch/team_rocket_final_launch.py
 resource/team_rocket_final
 team_rocket_final/__init__.py
+team_rocket_final/best_model_small.pth
 team_rocket_final/getObjectRange.py
+team_rocket_final/models.py
 team_rocket_final/moveRobot.py
 test/test_copyright.py
 test/test_flake8.py
