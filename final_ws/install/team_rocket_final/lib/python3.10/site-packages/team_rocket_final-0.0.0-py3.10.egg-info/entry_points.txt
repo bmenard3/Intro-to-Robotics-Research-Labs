@@ -1,4 +1,3 @@
 [console_scripts]
 getObjectRange = team_rocket_final.getObjectRange:main
 moveRobot = team_rocket_final.moveRobot:main
-

@@ -126,7 +126,7 @@ class MoveRobot(Node):
         N = msg.layout.dim[0].size
         M = msg.layout.dim[1].size
         self.latest_scan = np.array(msg.data, dtype=np.float32).reshape(N, M)
-        for i in range(self.latest_scan[0]):
+        for i in range(self.latest_scan.shape[0]):
             if np.isnan(self.latest_scan[i,1]):
                 self.latest_scan[i,1] = 5.0
         forward_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + (math.pi / 12)))

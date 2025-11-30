@@ -126,7 +126,7 @@ class MoveRobot(Node):
         N = msg.layout.dim[0].size
         M = msg.layout.dim[1].size
         self.latest_scan = np.array(msg.data, dtype=np.float32).reshape(N, M)
-        for i in range(self.latest_scan[0]):
+        for i in range(self.latest_scan.shape[0]):
             if np.isnan(self.latest_scan[i,1]):
                 self.latest_scan[i,1] = 5.0
         forward_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + (math.pi / 12)))
@@ -136,14 +136,14 @@ class MoveRobot(Node):
         #self.get_logger().info(f'ind0: {forward_scan_ind0}, ind1: {forward_scan_ind1}')
         self.forward_distance = np.min(self.forward_scan[:,1])
         #self.get_logger().info(f'Forward Distance: {self.forward_distance}')
-        right_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) + (math.pi / 6))))
-        right_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) - (math.pi / 6))))
+        right_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) + (math.pi / 7))))
+        right_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) - (math.pi / 7))))
         #self.get_logger().info(f'ind0: {right_scan_ind0}, ind1: {right_scan_ind1}')
         self.right_scan = self.latest_scan[right_scan_ind0:right_scan_ind1, :]
         #self.get_logger().info(f'{self.latest_scan}')
         self.right_distance = np.min(self.right_scan[:,1])
-        left_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) - (math.pi / 6))))
-        left_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) + (math.pi / 6))))
+        left_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) - (math.pi / 7))))
+        left_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) + (math.pi / 7))))
         self.left_scan = self.latest_scan[left_scan_ind0:left_scan_ind1, :]
         self.left_distance = np.min(self.left_scan[:,1])
         #self.get_logger().info(f'{self.left_scan}')
@@ -178,7 +178,7 @@ class MoveRobot(Node):
                 self.movement_start = True
 
         elif self.state == 1: # Move Forward
-            if self.forward_distance < 0.5:
+            if self.forward_distance < 0.4:
                 self.get_logger().info('The way is blocked')
                 msg.linear.x = 0.0
                 msg.linear.y = 0.0
@@ -206,7 +206,7 @@ class MoveRobot(Node):
                     closest_left_angle = self.left_scan[np.argmin(self.left_scan[:,1]), 0]
                     self.get_logger().info(f'closest left angle: {closest_left_angle}')
                     angular_velocity += 0.1*(closest_left_angle - (math.pi/2))
-                if self.right_distance < 0.6:
+                elif self.right_distance < 0.6:
                     closest_right_angle = self.right_scan[np.argmin(self.right_scan[:,1]), 0]
                     self.get_logger().info(f'closest right angle: {-(math.pi/2) - closest_right_angle}')
                     angular_velocity += 0.1*(-(math.pi/2) - closest_right_angle)
