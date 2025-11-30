@@ -22,7 +22,7 @@ class SignDetector(Node):
         super().__init__('sign_detector')
         
         # Declare parameters
-        self.declare_parameter('camera_topic', '/image_raw')
+        self.declare_parameter('camera_topic', 'simulated_image/image_raw')
         self.declare_parameter('model_name', 'best_model_small.pth')
         self.declare_parameter('debug_mode', True)
         

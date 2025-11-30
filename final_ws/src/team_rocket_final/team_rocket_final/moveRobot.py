@@ -268,6 +268,9 @@ class MoveRobot(Node):
                 
                 # Check for sign detection
                 detection = self.get_latest_detection()
+                if detection == -1:
+                    self.get_logger().info('   No valid detection yet, waiting...')
+                    self.state = 7
                 
                 if detection == 0:  # empty
                     self.get_logger().info(
