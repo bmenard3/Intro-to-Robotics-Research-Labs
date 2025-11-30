@@ -1,5 +1,0 @@
-  File "/home/augustmenard/Intro-to-Robotics-Research-Labs/lab2_ws/install/TeamRocket_object_follower/lib/python3.10/site-packages/TeamRocket_object_follower/rotate_robot.py", line 12
-    self.coordinate_callback
-    ^^^^^^^^^^^
-SyntaxError: invalid syntax. Perhaps you forgot a comma?
-

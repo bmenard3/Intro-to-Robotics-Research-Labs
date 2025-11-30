@@ -1,4 +1,0 @@
-[console_scripts]
-action_client = team_rocket_action_server_client.action_client:main
-waypoint_navigator = team_rocket_action_server_client.waypoint_navigator:main
-
