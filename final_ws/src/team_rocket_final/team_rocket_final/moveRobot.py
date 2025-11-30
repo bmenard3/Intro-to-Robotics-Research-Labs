@@ -149,7 +149,7 @@ class MoveRobot(Node):
         self.left_distance = 2.0
         
         # ========== Small Turn Angle ==========
-        self.small_turn_angle = math.pi / 2  # 30 degrees for obstacle avoidance
+        self.small_turn_angle = math.pi / 6  # 30 degrees for obstacle avoidance
         
         self.get_logger().info('='*60)
         self.get_logger().info('✓ Motion Controller Initialized')
@@ -268,9 +268,15 @@ class MoveRobot(Node):
                 
                 # Check for sign detection
                 detection = self.get_latest_detection()
+
                 if detection == -1:
                     self.get_logger().info('   No valid detection yet, waiting...')
-                    self.state = 7
+                    if self.right_distance > self.left_distance:
+                        self.get_logger().info(f'   → Right wider → State 7 (Small Right Turn)')
+                        self.state = 7
+                    else:
+                        self.get_logger().info(f'   → Left wider → State 8 (Small Left Turn)')
+                        self.state = 8
                 
                 if detection == 0:  # empty
                     self.get_logger().info(
@@ -311,7 +317,7 @@ class MoveRobot(Node):
                 # Left wall following
                 if self.left_distance < 0.6:
                     closest_left_angle = self.left_scan[np.argmin(self.left_scan[:, 1]), 0]
-                    angular_velocity += 0.3 * (closest_left_angle - (math.pi / 2))
+                    angular_velocity += 0.1 * (closest_left_angle - (math.pi / 2))
                 
                 # Clamp angular velocity
                 if angular_velocity > 0.2:
