@@ -1,0 +1,49 @@
+[0.529s] Invoking command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build
+[0.690s] running develop
+[0.781s] Removing /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team-rocket-final.egg-link (link to .)
+[0.796s] Invoked command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final' returned '0': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build
+[0.797s] Invoking command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed install_data --force
+[0.943s] running egg_info
+[0.944s] writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+[0.944s] writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+[0.944s] writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+[0.944s] writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+[0.944s] writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+[0.945s] reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[0.945s] adding license file 'LICENSE'
+[0.946s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[0.946s] running build
+[0.946s] running build_py
+[0.946s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build
+[0.946s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib
+[0.946s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.946s] copying team_rocket_final/moveRobot (copy).py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.946s] copying team_rocket_final/getObjectRange.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.946s] copying team_rocket_final/__init__.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.946s] copying team_rocket_final/moveRobot.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.947s] copying team_rocket_final/models.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[0.947s] running install
+[0.947s] running install_lib
+[0.948s] creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] copying /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot (copy).py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] copying /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/getObjectRange.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] copying /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/__init__.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] copying /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] copying /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/models.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[0.948s] byte-compiling /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot (copy).py to moveRobot (copy).cpython-310.pyc
+[0.951s] byte-compiling /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/getObjectRange.py to getObjectRange.cpython-310.pyc
+[0.951s] byte-compiling /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/__init__.py to __init__.cpython-310.pyc
+[0.952s] byte-compiling /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot.py to moveRobot.cpython-310.pyc
+[0.954s] byte-compiling /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/models.py to models.cpython-310.pyc
+[0.954s] running install_data
+[0.954s] copying resource/team_rocket_final -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+[0.955s] copying package.xml -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
+[0.955s] copying team_rocket_final/best_model_small.pth -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
+[0.982s] copying launch/team_rocket_final_launch.py -> /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/launch
+[0.983s] running install_egg_info
+[0.984s] Copying ../../build/team_rocket_final/team_rocket_final.egg-info to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info
+[0.985s] running install_scripts
+[0.998s] Installing getObjectRange script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.998s] Installing moveRobot script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.998s] writing list of installed files to '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log'
+[1.012s] Invoked command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '0': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed install_data --force

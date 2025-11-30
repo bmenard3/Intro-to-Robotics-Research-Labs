@@ -129,7 +129,7 @@ class MoveRobot(Node):
 
         
         # ✅ 相机话题
-        camera_topic = '/simulated_camera/image_raw'
+        camera_topic = '/image_raw'
         
         self.camera_subscriber = self.create_subscription(
             Image,
@@ -168,7 +168,7 @@ class MoveRobot(Node):
         self.movement_goal.y = 0.0
         
         # ========== 小角度转向设置 ==========
-        self.small_turn_angle = math.pi / 4  # 45度，可以调整为 30-60度之间的值
+        self.small_turn_angle = math.pi / 6  # 45度，可以调整为 30-60度之间的值
         # 如果想要30度，使用: math.pi / 6
         # 如果想要60度，使用: math.pi / 3
 
@@ -258,7 +258,7 @@ class MoveRobot(Node):
         # 6. 返回结果
         if pred_class == 0:  # empty
             self.get_logger().info('   → Result: EMPTY (returning None)')
-            return None
+            return 0
         
         self.get_logger().info(f'   → Result: {class_name.upper()} (returning {pred_class})')
         return pred_class  # 返回 1-5
@@ -278,6 +278,9 @@ class MoveRobot(Node):
         N = msg.layout.dim[0].size
         M = msg.layout.dim[1].size
         self.latest_scan = np.array(msg.data, dtype=np.float32).reshape(N, M)
+        for i in range(self.latest_scan.shape[0]):
+            if np.isnan(self.latest_scan[i,1]):
+                self.latest_scan[i,1] = 5.0
         forward_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + (math.pi / 12)))
         forward_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] - (math.pi / 12)))
         self.forward_scan = self.latest_scan[forward_scan_ind0:forward_scan_ind1, :]
@@ -381,15 +384,16 @@ class MoveRobot(Node):
                 if self.left_distance < 0.6:
                     closest_left_angle = self.left_scan[np.argmin(self.left_scan[:,1]), 0]
                     angular_velocity += 0.1*(closest_left_angle - (math.pi/2))
-                if self.right_distance < 0.6:
-                    closest_right_angle = self.right_scan[np.argmin(self.right_scan[:,1]), 0]
-                    angular_velocity += 0.1*(-(math.pi/2) - closest_right_angle)
+                #if self.right_distance < 0.6:
+                #    closest_right_angle = self.right_scan[np.argmin(self.right_scan[:,1]), 0]
+                #    angular_velocity += 0.1*(-(math.pi/2) - closest_right_angle)
                 
                 if angular_velocity > 0.2:
                     angular_velocity = 0.2
                 if angular_velocity < -0.2:
                     angular_velocity = -0.2
                 msg.angular.z = angular_velocity
+                self.get_logger().info(f'Angular Velocity: {angular_velocity}')
 
    
         elif self.state == 2: # Turn Right 90°
