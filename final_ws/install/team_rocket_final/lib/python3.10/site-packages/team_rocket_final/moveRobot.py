@@ -200,14 +200,14 @@ class MoveRobot(Node):
         self.forward_distance = np.min(self.forward_scan[:, 1])
         
         # Extract right scan (90° ± 30°)
-        right_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) + (math.pi / 6))))
-        right_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) - (math.pi / 6))))
+        right_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) + (math.pi / 8))))
+        right_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] + ((math.pi / 2) - (math.pi / 8))))
         self.right_scan = self.latest_scan[right_scan_ind0:right_scan_ind1, :]
         self.right_distance = np.min(self.right_scan[:, 1])
         
         # Extract left scan (90° ± 30°)
-        left_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) - (math.pi / 6))))
-        left_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) + (math.pi / 6))))
+        left_scan_ind0 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) - (math.pi / 8))))
+        left_scan_ind1 = np.argmin(np.abs(self.latest_scan[:, 0] - ((math.pi / 2) + (math.pi / 8))))
         self.left_scan = self.latest_scan[left_scan_ind0:left_scan_ind1, :]
         self.left_distance = np.min(self.left_scan[:, 1])
     
@@ -268,6 +268,15 @@ class MoveRobot(Node):
                 
                 # Check for sign detection
                 detection = self.get_latest_detection()
+
+                if detection == -1:
+                    self.get_logger().info('   No valid detection yet, waiting...')
+                    if self.right_distance > self.left_distance:
+                        self.get_logger().info(f'   → Right wider → State 7 (Small Right Turn)')
+                        self.state = 7
+                    else:
+                        self.get_logger().info(f'   → Left wider → State 8 (Small Left Turn)')
+                        self.state = 8
                 
                 if detection == 0:  # empty
                     self.get_logger().info(
@@ -306,9 +315,14 @@ class MoveRobot(Node):
                 angular_velocity = 0.0
                 
                 # Left wall following
-                if self.left_distance < 0.6:
+                if self.left_distance < 0.6 and abs(self.left_scan[0, 1] - self.left_scan[-1, 0]) < 0.2:
                     closest_left_angle = self.left_scan[np.argmin(self.left_scan[:, 1]), 0]
                     angular_velocity += 0.1 * (closest_left_angle - (math.pi / 2))
+                
+                # Right Wall Following
+                #if self.right_distance < 0.6:
+                    #closest_right_angle = self.right_scan[np.argmin(self.)]
+
                 
                 # Clamp angular velocity
                 if angular_velocity > 0.2:
