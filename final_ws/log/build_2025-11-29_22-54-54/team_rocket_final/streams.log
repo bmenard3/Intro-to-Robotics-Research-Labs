@@ -1,0 +1,18 @@
+[0.405s] Invoking command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build --no-deps symlink_data
+[0.569s] running develop
+[0.659s] running egg_info
+[0.659s] writing team_rocket_final.egg-info/PKG-INFO
+[0.659s] writing dependency_links to team_rocket_final.egg-info/dependency_links.txt
+[0.659s] writing entry points to team_rocket_final.egg-info/entry_points.txt
+[0.659s] writing requirements to team_rocket_final.egg-info/requires.txt
+[0.659s] writing top-level names to team_rocket_final.egg-info/top_level.txt
+[0.660s] reading manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+[0.661s] writing manifest file 'team_rocket_final.egg-info/SOURCES.txt'
+[0.661s] running build_ext
+[0.661s] Creating /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team-rocket-final.egg-link (link to .)
+[0.662s] Installing getObjectRange script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.662s] Installing moveRobot script to /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[0.662s] 
+[0.662s] Installed /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final
+[0.662s] running symlink_data
+[0.678s] Invoked command in '/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final' returned '0': PYTHONPATH=/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/j/Desktop/Leo/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build --no-deps symlink_data

@@ -4,7 +4,7 @@ from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSDurabilityPolicy, QoSReliabilityPolicy, QoSHistoryPolicy
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Twist, Point
-from std_msgs.msg import Float32MultiArray, String
+from std_msgs.msg import Float32MultiArray
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 from ament_index_python.packages import get_package_share_directory
@@ -59,34 +59,12 @@ class PIDController:
 class MoveRobot(Node):
     def __init__(self):
         super().__init__('move_robot')
-        
-        # ========== DECLARE PARAMETERS FOR DEBUGGING ==========
-        self.declare_parameter('debug_mode', False)  # Set to True for teleop testing
-        self.declare_parameter('detection_frequency', 2.0)  # Hz for CNN detection
-        self.declare_parameter('camera_topic', '/simulated_camera/image_raw')
-        
-        # Get parameters
-        self.debug_mode = self.get_parameter('debug_mode').value
-        self.detection_freq = self.get_parameter('detection_frequency').value
-        camera_topic = self.get_parameter('camera_topic').value
-        
         qos_profile = QoSProfile(
             reliability=QoSReliabilityPolicy.BEST_EFFORT,
             history=QoSHistoryPolicy.KEEP_LAST,
             durability=QoSDurabilityPolicy.VOLATILE,
             depth = 1
         )
-        
-        # ========== MODE INDICATION ==========
-        if self.debug_mode:
-            self.get_logger().info('='*60)
-            self.get_logger().info('🔧 DEBUG MODE: Autonomous navigation DISABLED')
-            self.get_logger().info('   Use teleop to drive and test CNN detection!')
-            self.get_logger().info('='*60)
-        else:
-            self.get_logger().info('='*60)
-            self.get_logger().info('🤖 AUTONOMOUS MODE: Full navigation enabled')
-            self.get_logger().info('='*60)
 
         # ========== CNN ==========
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -118,22 +96,6 @@ class MoveRobot(Node):
         self.latest_image = None
         self.image_count = 0  # 用于调试
         
-        # ========== Detection tracking ==========
-        self.detection_count = 0
-        self.last_detection = None
-        self.last_confidence = 0.0
-        self.detection_history = []  # Store recent detections
-        
-        # Class names with icons for display
-        self.class_display = {
-            'empty': ('⚪', 'Empty'),
-            'left': ('⬅️ ', 'Left'),
-            'right': ('➡️ ', 'Right'),
-            'do_not_enter': ('🚫', 'Do Not Enter'),
-            'stop': ('🛑', 'Stop'),
-            'goal': ('⭐', 'Goal')
-        }
-
 
         self.range_subscriber = self.create_subscriber = self.create_subscription(
             Float32MultiArray,
@@ -164,16 +126,11 @@ class MoveRobot(Node):
             '/cmd_vel',
             10
         )
-        
-        # ========== Detection Result Publisher ==========
-        self.detection_publisher = self.create_publisher(
-            String,
-            '/sign_detection/result',
-            10
-        )
 
         
-        # ✅ 相机话题 - Use parameter
+        # ✅ 相机话题
+        camera_topic = '/simulated_camera/image_raw'
+        
         self.camera_subscriber = self.create_subscription(
             Image,
             camera_topic,
@@ -181,25 +138,11 @@ class MoveRobot(Node):
             10
         )
         
-
         self.get_logger().info(f'📷 Subscribing to camera topic: {camera_topic}')
 
-        # ========== Timers ==========
-        # Navigation timer - only active in autonomous mode
+
         timer_period = 0.1
-        if self.debug_mode:
-            self.get_logger().info('⏸️  Navigation timer disabled (debug mode)')
-            # Don't create navigation timer in debug mode
-            self.timer = None
-        else:
-            self.timer = self.create_timer(timer_period, self.navigation)
-            self.get_logger().info('✓ Navigation timer active')
-        
-        # Detection timer - always active for testing
-        detection_period = 1.0 / self.detection_freq
-        self.detection_timer = self.create_timer(detection_period, self.periodic_detection)
-        self.get_logger().info(f'✓ Detection timer active ({self.detection_freq} Hz)')
-        
+        self.timer = self.create_timer(timer_period, self.navigation)
         self.angular_pid = PIDController(
             kp=0.5,
             ki=0.0,
@@ -320,70 +263,6 @@ class MoveRobot(Node):
         self.get_logger().info(f'   → Result: {class_name.upper()} (returning {pred_class})')
         return pred_class  # 返回 1-5
 
-    def periodic_detection(self):
-        """
-        Periodic detection callback for testing
-        Runs continuously at configured frequency
-        """
-        if self.latest_image is None:
-            return
-        
-        # Run detection
-        input_tensor = self.preprocess_image(self.latest_image)
-        if input_tensor is None:
-            return
-        
-        input_tensor = input_tensor.to(self.device)
-        
-        try:
-            with torch.no_grad():
-                outputs = self.cnn_model(input_tensor)
-                probabilities = torch.softmax(outputs, dim=1)
-                confidence, predicted = torch.max(probabilities, 1)
-                pred_class = predicted.item()
-                conf_value = confidence.item()
-        except Exception as e:
-            self.get_logger().error(f'Detection error: {e}')
-            return
-        
-        # Update tracking
-        self.detection_count += 1
-        class_name = self.class_names[pred_class]
-        self.last_detection = class_name
-        self.last_confidence = conf_value
-        
-        # Keep history
-        self.detection_history.append((class_name, conf_value))
-        if len(self.detection_history) > 10:
-            self.detection_history.pop(0)
-        
-        # Get display info
-        icon, display_name = self.class_display.get(class_name, ('❓', class_name))
-        
-        # Color codes for terminal
-        color_codes = {
-            'empty': '\033[90m',      # Gray
-            'left': '\033[92m',       # Green
-            'right': '\033[93m',      # Yellow
-            'do_not_enter': '\033[91m',  # Red
-            'stop': '\033[91m',       # Red
-            'goal': '\033[95m'        # Magenta
-        }
-        color = color_codes.get(class_name, '\033[0m')
-        reset = '\033[0m'
-        
-        # Log detection with formatting
-        self.get_logger().info(
-            f'{icon} {color}[{display_name:^15}]{reset} '
-            f'Confidence: {conf_value*100:5.1f}% '
-            f'(#{self.detection_count})'
-        )
-        
-        # Publish detection result
-        detection_msg = String()
-        detection_msg.data = f'{class_name},{conf_value:.3f}'
-        self.detection_publisher.publish(detection_msg)
-
 
     def odom_callback(self, msg):
         self.update_Odometry(msg)
@@ -416,10 +295,6 @@ class MoveRobot(Node):
 
 
     def navigation(self):
-        # Safety check - don't navigate in debug mode
-        if self.debug_mode:
-            return
-        
         msg = Twist()
         closest_scan = self.ranges.index(min(self.ranges))
         closest_range = self.ranges[closest_scan]
@@ -431,7 +306,7 @@ class MoveRobot(Node):
             if (closest_range < 0.5) and (abs(closest_angle) < (math.pi/4)):
                 detection = self.detect_sign()  # 返回 None 或 1-5
                 
-                if detection is None:  # 0: empty
+                if detection == 0 :  # 0: empty
                     self.get_logger().info('   No sign detected → State 1 (Forward)')
                     self.state = 1
                     self.movement_start = True
@@ -468,7 +343,7 @@ class MoveRobot(Node):
                 # 尝试检测标识
                 detection = self.detect_sign()  # 返回 None 或 1-5
                 
-                if detection is None:  # empty (0)
+                if detection == 0:  # empty (0)
                     self.get_logger().info(f'   No sign. Left={self.left_distance:.2f}m, Right={self.right_distance:.2f}m')
                     
                     # 使用小角度转向（State 7和8）而不是90度转向

@@ -7,6 +7,7 @@ team_rocket_final/__init__.py
 team_rocket_final/best_model_small.pth
 team_rocket_final/getObjectRange.py
 team_rocket_final/models.py
+team_rocket_final/moveRobot (copy).py
 team_rocket_final/moveRobot.py
 team_rocket_final.egg-info/PKG-INFO
 team_rocket_final.egg-info/SOURCES.txt
