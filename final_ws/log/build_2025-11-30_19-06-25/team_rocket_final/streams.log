@@ -1,0 +1,30 @@
+[3.875s] Invoking command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed
+[4.773s] running egg_info
+[4.830s] writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+[4.831s] writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+[4.833s] writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+[4.834s] writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+[4.834s] writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+[4.953s] reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.954s] adding license file 'LICENSE'
+[4.958s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.958s] running build
+[4.959s] running build_py
+[4.962s] running install
+[4.963s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.963s] !!
+[4.963s] 
+[4.964s]         ********************************************************************************
+[4.964s]         Please avoid running ``setup.py`` directly.
+[4.964s]         Instead, use pypa/build, pypa/installer or other
+[4.965s]         standards-based tools.
+[4.965s] 
+[4.965s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.966s]         ********************************************************************************
+[4.966s] 
+[4.966s] !!
+[4.966s]   self.initialize_options()
+[4.983s] running install_lib
+[5.046s] running install_data
+[5.104s] error: can't copy 'team_rocket_final/best_model_small.pth': doesn't exist or not a regular file
+[5.198s] Invoked command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '1': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed

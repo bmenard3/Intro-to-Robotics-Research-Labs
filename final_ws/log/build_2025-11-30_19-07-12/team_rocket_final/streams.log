@@ -1,0 +1,39 @@
+[3.865s] Invoking command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed
+[4.770s] running egg_info
+[4.827s] writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+[4.829s] writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+[4.830s] writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+[4.831s] writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+[4.832s] writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+[4.951s] reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.953s] adding license file 'LICENSE'
+[4.956s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.957s] running build
+[4.957s] running build_py
+[4.960s] running install
+[4.961s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.962s] !!
+[4.962s] 
+[4.962s]         ********************************************************************************
+[4.963s]         Please avoid running ``setup.py`` directly.
+[4.963s]         Instead, use pypa/build, pypa/installer or other
+[4.963s]         standards-based tools.
+[4.964s] 
+[4.964s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.964s]         ********************************************************************************
+[4.965s] 
+[4.965s] !!
+[4.965s]   self.initialize_options()
+[4.982s] running install_lib
+[5.045s] running install_data
+[5.103s] copying team_rocket_final/best_model_small.pth -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
+[5.104s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/launch
+[5.104s] copying launch/team_rocket_final_launch.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/launch
+[5.105s] running install_egg_info
+[5.167s] Copying ../../build/team_rocket_final/team_rocket_final.egg-info to /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final-0.0.0-py3.10.egg-info
+[5.172s] running install_scripts
+[5.759s] Installing getObjectRange script to /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[5.760s] Installing moveRobot script to /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[5.761s] Installing signDetector script to /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/team_rocket_final
+[5.762s] writing list of installed files to '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log'
+[5.891s] Invoked command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '0': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed

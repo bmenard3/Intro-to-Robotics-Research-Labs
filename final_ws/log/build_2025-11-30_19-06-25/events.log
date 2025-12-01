@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.001863] (team_rocket_final) JobQueued: {'identifier': 'team_rocket_final', 'dependencies': OrderedDict()}
+[0.002467] (team_rocket_final) JobStarted: {'identifier': 'team_rocket_final'}
+[0.099379] (-) TimerEvent: {}
+[0.200253] (-) TimerEvent: {}
+[0.301193] (-) TimerEvent: {}
+[0.401813] (-) TimerEvent: {}
+[0.502748] (-) TimerEvent: {}
+[0.603374] (-) TimerEvent: {}
+[0.704003] (-) TimerEvent: {}
+[0.804640] (-) TimerEvent: {}
+[0.905295] (-) TimerEvent: {}
+[1.005894] (-) TimerEvent: {}
+[1.106495] (-) TimerEvent: {}
+[1.207178] (-) TimerEvent: {}
+[1.308006] (-) TimerEvent: {}
+[1.408886] (-) TimerEvent: {}
+[1.510042] (-) TimerEvent: {}
+[1.611096] (-) TimerEvent: {}
+[1.712043] (-) TimerEvent: {}
+[1.812654] (-) TimerEvent: {}
+[1.913340] (-) TimerEvent: {}
+[2.013970] (-) TimerEvent: {}
+[2.114575] (-) TimerEvent: {}
+[2.215170] (-) TimerEvent: {}
+[2.315758] (-) TimerEvent: {}
+[2.416337] (-) TimerEvent: {}
+[2.516971] (-) TimerEvent: {}
+[2.617607] (-) TimerEvent: {}
+[2.718183] (-) TimerEvent: {}
+[2.818762] (-) TimerEvent: {}
+[2.919366] (-) TimerEvent: {}
+[3.019959] (-) TimerEvent: {}
+[3.120534] (-) TimerEvent: {}
+[3.221142] (-) TimerEvent: {}
+[3.321767] (-) TimerEvent: {}
+[3.422338] (-) TimerEvent: {}
+[3.522914] (-) TimerEvent: {}
+[3.623522] (-) TimerEvent: {}
+[3.724317] (-) TimerEvent: {}
+[3.825530] (-) TimerEvent: {}
+[3.874142] (team_rocket_final) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/team_rocket_final', 'build', '--build-base', '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build', 'install', '--record', '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log', '--single-version-externally-managed'], 'cwd': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'burger', 'SSH_CLIENT': '192.168.0.102 56636 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/burger', 'OLDPWD': '/home/burger/Intro-to-Robotics-Research-Labs', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install:/home/burger/ws/install:/home/burger/dontTouch_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'burger', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/burger/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '49', 'AMENT_PREFIX_PATH': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final:/home/burger/ws/install/mavic_perception_package:/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final', 'TURTLEBOT3_MODEL': 'burger', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.102 56636 192.168.0.211 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-02', 'PYTHONPATH': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:/home/burger/ws/install/mavic_perception_package/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_teleop:/home/burger/dontTouch_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/burger/dontTouch_ws/build/turtlebot3_example:/home/burger/dontTouch_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/burger/dontTouch_ws/install/v4l2_camera:/home/burger/dontTouch_ws/install/turtlebot3:/home/burger/dontTouch_ws/install/turtlebot3_bringup:/home/burger/dontTouch_ws/install/turtlebot3_node:/home/burger/dontTouch_ws/install/turtlebot3_description:/home/burger/dontTouch_ws/install/ld08_driver'}, 'shell': False}
+[3.925682] (-) TimerEvent: {}
+[4.026333] (-) TimerEvent: {}
+[4.126976] (-) TimerEvent: {}
+[4.227660] (-) TimerEvent: {}
+[4.328257] (-) TimerEvent: {}
+[4.428834] (-) TimerEvent: {}
+[4.529467] (-) TimerEvent: {}
+[4.630107] (-) TimerEvent: {}
+[4.730695] (-) TimerEvent: {}
+[4.774834] (team_rocket_final) StdoutLine: {'line': b'running egg_info\n'}
+[4.830835] (-) TimerEvent: {}
+[4.832341] (team_rocket_final) StdoutLine: {'line': b'writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO\n'}
+[4.833766] (team_rocket_final) StdoutLine: {'line': b'writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt\n'}
+[4.834949] (team_rocket_final) StdoutLine: {'line': b'writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt\n'}
+[4.836071] (team_rocket_final) StdoutLine: {'line': b'writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt\n'}
+[4.836832] (team_rocket_final) StdoutLine: {'line': b'writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt\n'}
+[4.930984] (-) TimerEvent: {}
+[4.955067] (team_rocket_final) StdoutLine: {'line': b"reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'\n"}
+[4.956868] (team_rocket_final) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[4.959957] (team_rocket_final) StdoutLine: {'line': b"writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'\n"}
+[4.960709] (team_rocket_final) StdoutLine: {'line': b'running build\n'}
+[4.961275] (team_rocket_final) StdoutLine: {'line': b'running build_py\n'}
+[4.963967] (team_rocket_final) StdoutLine: {'line': b'running install\n'}
+[4.964915] (team_rocket_final) StderrLine: {'line': b'/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.\n'}
+[4.965544] (team_rocket_final) StderrLine: {'line': b'!!\n'}
+[4.965868] (team_rocket_final) StderrLine: {'line': b'\n'}
+[4.966167] (team_rocket_final) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.966502] (team_rocket_final) StderrLine: {'line': b'        Please avoid running ``setup.py`` directly.\n'}
+[4.966818] (team_rocket_final) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[4.967128] (team_rocket_final) StderrLine: {'line': b'        standards-based tools.\n'}
+[4.967441] (team_rocket_final) StderrLine: {'line': b'\n'}
+[4.967739] (team_rocket_final) StderrLine: {'line': b'        See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.\n'}
+[4.968049] (team_rocket_final) StderrLine: {'line': b'        ********************************************************************************\n'}
+[4.968355] (team_rocket_final) StderrLine: {'line': b'\n'}
+[4.968667] (team_rocket_final) StderrLine: {'line': b'!!\n'}
+[4.968964] (team_rocket_final) StderrLine: {'line': b'  self.initialize_options()\n'}
+[4.985724] (team_rocket_final) StdoutLine: {'line': b'running install_lib\n'}
+[5.031117] (-) TimerEvent: {}
+[5.048069] (team_rocket_final) StdoutLine: {'line': b'running install_data\n'}
+[5.105519] (team_rocket_final) StderrLine: {'line': b"error: can't copy 'team_rocket_final/best_model_small.pth': doesn't exist or not a regular file\n"}
+[5.131421] (-) TimerEvent: {}
+[5.199776] (team_rocket_final) CommandEnded: {'returncode': 1}
+[5.200842] (team_rocket_final) JobEnded: {'identifier': 'team_rocket_final', 'rc': 1}
+[5.211233] (-) EventReactorShutdown: {}

@@ -1,0 +1,56 @@
+[3.879s] Invoking command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed
+[4.780s] running egg_info
+[4.781s] creating ../../build/team_rocket_final/team_rocket_final.egg-info
+[4.838s] writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+[4.840s] writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+[4.841s] writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+[4.841s] writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+[4.842s] writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+[4.843s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.961s] reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.962s] adding license file 'LICENSE'
+[4.965s] writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+[4.966s] running build
+[4.966s] running build_py
+[4.967s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build
+[4.968s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib
+[4.968s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.969s] copying team_rocket_final/signDetector.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.969s] copying team_rocket_final/models.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.971s] copying team_rocket_final/getObjectRange.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.972s] copying team_rocket_final/moveRobot.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.973s] copying team_rocket_final/__init__.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+[4.974s] running install
+[4.975s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[4.976s] !!
+[4.976s] 
+[4.976s]         ********************************************************************************
+[4.976s]         Please avoid running ``setup.py`` directly.
+[4.977s]         Instead, use pypa/build, pypa/installer or other
+[4.977s]         standards-based tools.
+[4.977s] 
+[4.978s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[4.978s]         ********************************************************************************
+[4.978s] 
+[4.979s] !!
+[4.979s]   self.initialize_options()
+[4.996s] running install_lib
+[5.055s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.055s] copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/signDetector.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.057s] copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/models.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.057s] copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/getObjectRange.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.058s] copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.059s] copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/__init__.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+[5.063s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/signDetector.py to signDetector.cpython-310.pyc
+[5.068s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/models.py to models.cpython-310.pyc
+[5.071s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/getObjectRange.py to getObjectRange.cpython-310.pyc
+[5.074s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot.py to moveRobot.cpython-310.pyc
+[5.086s] byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/__init__.py to __init__.cpython-310.pyc
+[5.087s] running install_data
+[5.145s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index
+[5.146s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index
+[5.146s] creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+[5.147s] copying resource/team_rocket_final -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+[5.147s] copying package.xml -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
+[5.149s] error: can't copy 'team_rocket_final/best_model_small.pth': doesn't exist or not a regular file
+[5.243s] Invoked command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '1': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed

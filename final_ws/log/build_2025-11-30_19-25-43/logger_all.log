@@ -1,0 +1,173 @@
+[3.869s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[3.869s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb9c3af80>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb9f74fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb9f74fd0>>)
+[4.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.097s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[4.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.098s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[4.099s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.159s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ignore_ament_install'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_pkg']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_pkg'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['colcon_meta']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'colcon_meta'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['ros']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'ros'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['cmake', 'python']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'cmake'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python'
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extensions ['python_setup_py']
+[4.166s] Level 1:colcon.colcon_core.package_identification:_identify(src/DynamixelSDK) by extension 'python_setup_py'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extensions ['ignore', 'ignore_ament_install']
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extension 'ignore'
+[4.167s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extension 'ignore_ament_install'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extensions ['colcon_pkg']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extension 'colcon_pkg'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extensions ['colcon_meta']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extension 'colcon_meta'
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extensions ['ros']
+[4.168s] Level 1:colcon.colcon_core.package_identification:_identify(src/team_rocket_final) by extension 'ros'
+[4.176s] DEBUG:colcon.colcon_core.package_identification:Package 'src/team_rocket_final' with type 'ros.ament_python' and name 'team_rocket_final'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ignore_ament_install'
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_pkg']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_pkg'
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['colcon_meta']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'colcon_meta'
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['ros']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'ros'
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['cmake', 'python']
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'cmake'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extensions ['python_setup_py']
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3) by extension 'python_setup_py'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_pkg'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['colcon_meta']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'colcon_meta'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['ros']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'ros'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['cmake', 'python']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'cmake'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'python'
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extensions ['python_setup_py']
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_msgs) by extension 'python_setup_py'
+[4.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.182s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.668s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install
+[4.726s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/burger/ws/install
+[4.784s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/burger/dontTouch_ws/install
+[4.846s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 210 installed packages in /opt/ros/humble
+[4.851s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_args' from command line to 'None'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_target' from command line to 'None'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_clean_cache' from command line to 'False'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_clean_first' from command line to 'False'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'cmake_force_configure' from command line to 'False'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'ament_cmake_args' from command line to 'None'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'catkin_cmake_args' from command line to 'None'
+[5.115s] Level 5:colcon.colcon_core.verb:set package 'team_rocket_final' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.116s] DEBUG:colcon.colcon_core.verb:Building package 'team_rocket_final' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final', 'merge_install': False, 'path': '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final', 'symlink_install': False, 'test_result_base': None}
+[5.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.231s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' with build type 'ament_python'
+[5.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_rocket_final', 'ament_prefix_path')
+[5.298s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/ament_prefix_path.ps1'
+[5.301s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/ament_prefix_path.dsv'
+[5.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/ament_prefix_path.sh'
+[5.363s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.363s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.517s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final'
+[6.577s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.114s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed
+[11.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/src/team_rocket_final' returned '0': PYTHONPATH=/home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/prefix_override:/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/team_rocket_final build --build-base /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build install --record /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/install.log --single-version-externally-managed
+[11.223s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final' for CMake module files
+[11.225s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final' for CMake config files
+[11.230s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib'
+[11.230s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/bin'
+[11.231s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/pkgconfig/team_rocket_final.pc'
+[11.232s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages'
+[11.232s] Level 1:colcon.colcon_core.shell:create_environment_hook('team_rocket_final', 'pythonpath')
+[11.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/pythonpath.ps1'
+[11.292s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/pythonpath.dsv'
+[11.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/hook/pythonpath.sh'
+[11.296s] Level 1:colcon.colcon_core.environment:checking '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/bin'
+[11.296s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(team_rocket_final)
+[11.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/package.ps1'
+[11.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/package.dsv'
+[11.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/package.sh'
+[11.362s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/package.bash'
+[11.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final/package.zsh'
+[11.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/colcon-core/packages/team_rocket_final)
+[11.369s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.370s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.371s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.371s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.451s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[11.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.452s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.452s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.455s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[11.455s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.516s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/local_setup.ps1'
+[11.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/_local_setup_util_ps1.py'
+[11.525s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/setup.ps1'
+[11.588s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/local_setup.sh'
+[11.590s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/_local_setup_util_sh.py'
+[11.593s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/setup.sh'
+[11.655s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/local_setup.bash'
+[11.657s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/setup.bash'
+[11.720s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/local_setup.zsh'
+[11.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/setup.zsh'

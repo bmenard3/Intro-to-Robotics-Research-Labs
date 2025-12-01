@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: team-rocket-final
+Version: 0.0.0
+Summary: Team Rocket Final - Modular Robot Navigation with Vision
+Maintainer: augustmenard
+Maintainer-email: bmenard3@gatech.edu
+License: Apache-2.0
+License-File: LICENSE

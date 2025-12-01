@@ -1,0 +1,40 @@
+running egg_info
+creating ../../build/team_rocket_final/team_rocket_final.egg-info
+writing ../../build/team_rocket_final/team_rocket_final.egg-info/PKG-INFO
+writing dependency_links to ../../build/team_rocket_final/team_rocket_final.egg-info/dependency_links.txt
+writing entry points to ../../build/team_rocket_final/team_rocket_final.egg-info/entry_points.txt
+writing requirements to ../../build/team_rocket_final/team_rocket_final.egg-info/requires.txt
+writing top-level names to ../../build/team_rocket_final/team_rocket_final.egg-info/top_level.txt
+writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+reading manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/team_rocket_final/team_rocket_final.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+copying team_rocket_final/signDetector.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+copying team_rocket_final/models.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+copying team_rocket_final/getObjectRange.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+copying team_rocket_final/moveRobot.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+copying team_rocket_final/__init__.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final
+running install
+running install_lib
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/signDetector.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/models.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/getObjectRange.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/moveRobot.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+copying /home/burger/Intro-to-Robotics-Research-Labs/final_ws/build/team_rocket_final/build/lib/team_rocket_final/__init__.py -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final
+byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/signDetector.py to signDetector.cpython-310.pyc
+byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/models.py to models.cpython-310.pyc
+byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/getObjectRange.py to getObjectRange.cpython-310.pyc
+byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/moveRobot.py to moveRobot.cpython-310.pyc
+byte-compiling /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/lib/python3.10/site-packages/team_rocket_final/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index
+creating /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+copying resource/team_rocket_final -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/ament_index/resource_index/packages
+copying package.xml -> /home/burger/Intro-to-Robotics-Research-Labs/final_ws/install/team_rocket_final/share/team_rocket_final
