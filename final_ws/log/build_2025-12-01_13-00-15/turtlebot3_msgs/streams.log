@@ -1,0 +1,447 @@
+[0.028s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs
+[0.310s] -- The C compiler identification is GNU 11.4.0
+[0.310s] -- The CXX compiler identification is GNU 11.4.0
+[0.310s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.310s] -- Detecting C compile features
+[0.310s] -- Detecting C compile features - done
+[0.310s] -- Detecting CXX compiler ABI info
+[0.392s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.406s] -- Detecting CXX compile features - done
+[0.408s] -- Found action_msgs: 1.2.2 (/opt/ros/humble/share/action_msgs/cmake)
+[0.601s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.794s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.810s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.817s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.867s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.926s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.943s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.966s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.730s] -- Found ament_cmake_cppcheck: 0.12.14 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.735s] -- Found ament_cmake_cpplint: 0.12.14 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.740s] -- Found ament_cmake_uncrustify: 0.12.14 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.745s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.110s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.242s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.262s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.264s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.285s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.286s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.286s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.286s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.303s] -- Found PythonExtra: .so  
+[2.368s] -- Found ament_cmake_flake8: 0.12.14 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.371s] -- Found ament_cmake_pep257: 0.12.14 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[2.377s] -- Configuring done
+[2.421s] -- Generating done
+[2.437s] -- Build files have been written to: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs
+[2.445s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/src/turtlebot3_msgs -DCMAKE_INSTALL_PREFIX=/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs
+[2.446s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs -- -j8 -l8
+[2.485s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.497s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.500s] [  2%] Built target ament_cmake_python_copy_turtlebot3_msgs
+[2.860s] running egg_info
+[2.861s] creating turtlebot3_msgs.egg-info
+[2.861s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[2.861s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[2.862s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[2.862s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[2.865s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[2.865s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[2.909s] [  2%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[4.062s] [  2%] Built target turtlebot3_msgs__cpp
+[4.069s] [  5%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sound__functions.c.o[0m
+[4.069s] [  5%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/sensor_state__functions.c.o[0m
+[4.069s] [  7%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/dqn__functions.c.o[0m
+[4.069s] [  7%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/sound__functions.c.o[0m
+[4.069s] [  8%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/srv/detail/goal__functions.c.o[0m
+[4.074s] [ 10%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/msg/detail/version_info__functions.c.o[0m
+[4.074s] [ 11%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_c.dir/rosidl_generator_c/turtlebot3_msgs/action/detail/patrol__functions.c.o[0m
+[4.082s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.133s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.147s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.258s] [ 16%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_generator_c.so[0m
+[4.313s] [ 16%] Built target turtlebot3_msgs__rosidl_generator_c
+[4.330s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.333s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.333s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.153s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[5.153s] [ 22%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[5.169s] [ 24%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[5.567s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sensor_state__type_support.cpp.o[0m
+[5.582s] [ 26%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[5.582s] [ 27%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[5.599s] [ 29%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp.o[0m
+[5.622s] [ 30%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/sound__type_support.cpp.o[0m
+[5.653s] [ 31%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/msg/version_info__type_support.cpp.o[0m
+[5.676s] [ 32%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/sound__type_support.cpp.o[0m
+[5.710s] [ 34%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/sound__type_support.cpp.o[0m
+[5.754s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/dqn__type_support.cpp.o[0m
+[5.799s] [ 36%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/srv/goal__type_support.cpp.o[0m
+[5.830s] [ 37%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sensor_state__type_support.cpp.o[0m
+[5.844s] [ 39%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[5.964s] [ 40%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_c.so[0m
+[5.979s] [ 41%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/msg/detail/version_info__type_support.cpp.o[0m
+[6.010s] [ 43%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/srv/goal__type_support.cpp.o[0m
+[6.070s] [ 43%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[6.090s] [ 44%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/sound__type_support.cpp.o[0m
+[6.152s] [ 45%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/turtlebot3_msgs/action/patrol__type_support.cpp.o[0m
+[6.165s] [ 46%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sensor_state__type_support.c.o[0m
+[6.238s] [ 48%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/sound__type_support.c.o[0m
+[6.259s] [ 49%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/dqn__type_support.cpp.o[0m
+[6.268s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sensor_state__type_support_c.cpp.o[0m
+[6.298s] [ 51%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/msg/detail/version_info__type_support.c.o[0m
+[6.360s] [ 53%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/sound__type_support.c.o[0m
+[6.404s] [ 54%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[6.439s] [ 55%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/msg/detail/dds_fastrtps/version_info__type_support.cpp.o[0m
+[6.454s] [ 56%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/dqn__type_support.c.o[0m
+[6.563s] [ 58%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/srv/detail/goal__type_support.c.o[0m
+[6.567s] [ 59%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[6.632s] [ 60%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlebot3_msgs/action/detail/patrol__type_support.c.o[0m
+[6.695s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[6.751s] [ 63%] [32m[1mLinking C shared library libturtlebot3_msgs__rosidl_typesupport_introspection_c.so[0m
+[6.799s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/srv/detail/goal__type_support.cpp.o[0m
+[6.822s] [ 64%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[6.835s] [ 65%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/turtlebot3_msgs/action/detail/patrol__type_support.cpp.o[0m
+[6.864s] [ 67%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/dqn__type_support.cpp.o[0m
+[6.909s] [ 68%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_cpp.so[0m
+[7.005s] [ 68%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[7.019s] [ 69%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/srv/detail/dds_fastrtps/goal__type_support.cpp.o[0m
+[7.019s] [ 70%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/msg/detail/version_info__type_support_c.cpp.o[0m
+[7.036s] [ 72%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/turtlebot3_msgs/action/detail/dds_fastrtps/patrol__type_support.cpp.o[0m
+[7.082s] [ 73%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/sound__type_support_c.cpp.o[0m
+[7.319s] [ 74%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/dqn__type_support_c.cpp.o[0m
+[7.372s] [ 75%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/srv/detail/goal__type_support_c.cpp.o[0m
+[7.518s] [ 77%] [32mBuilding CXX object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/turtlebot3_msgs/action/detail/patrol__type_support_c.cpp.o[0m
+[7.732s] [ 78%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[7.831s] [ 79%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.842s] [ 79%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[7.904s] [ 79%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[7.987s] [ 81%] [32m[1mLinking CXX shared library libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[8.050s] [ 81%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[8.065s] [ 81%] Built target turtlebot3_msgs
+[8.082s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.601s] [ 82%] Built target turtlebot3_msgs__py
+[9.621s] [ 84%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sound_s.c.o[0m
+[9.622s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_version_info_s.c.o[0m
+[9.622s] [ 87%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_sound_s.c.o[0m
+[9.622s] [ 88%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_goal_s.c.o[0m
+[9.622s] [ 84%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/msg/_sensor_state_s.c.o[0m
+[9.623s] [ 89%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/srv/_dqn_s.c.o[0m
+[9.623s] [ 91%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_generator_py.dir/rosidl_generator_py/turtlebot3_msgs/action/_patrol_s.c.o[0m
+[9.810s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so[0m
+[9.847s] [ 92%] Built target turtlebot3_msgs__rosidl_generator_py
+[9.864s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.864s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.864s] [ 96%] [32mBuilding C object CMakeFiles/turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.989s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.989s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.989s] [100%] [32m[1mLinking C shared library rosidl_generator_py/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.028s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[10.028s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[10.028s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.038s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --build /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs -- -j8 -l8
+[10.040s] Invoking command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs
+[10.047s] -- Install configuration: ""
+[10.047s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/ament_index/resource_index/rosidl_interfaces/turtlebot3_msgs
+[10.047s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.047s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.047s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.047s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.c
+[10.047s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__functions.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.h
+[10.048s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.h
+[10.048s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__functions.c
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__functions.h
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.c
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.c
+[10.048s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__functions.h
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__functions.h
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.h
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.h
+[10.049s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.h
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.h
+[10.049s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.050s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.c
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.c
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__functions.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__functions.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.h
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__functions.c
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.sh
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/library_path.dsv
+[10.050s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so
+[10.050s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_c.so" to ""
+[10.050s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.051s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so
+[10.051s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.051s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__struct.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__builder.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__traits.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/patrol.hpp
+[10.052s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/goal.hpp
+[10.052s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__traits.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__builder.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__builder.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__struct.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__traits.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__builder.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__struct.hpp
+[10.052s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__traits.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__struct.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/sound.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/dqn.hpp
+[10.053s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/version_info.hpp
+[10.053s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__builder.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__traits.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__traits.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__traits.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__struct.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__builder.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__struct.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.hpp
+[10.053s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__builder.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__struct.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sound.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/sensor_state.hpp
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/dds_fastrtps
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_fastrtps_cpp.hpp
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dds_fastrtps
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_fastrtps_cpp.hpp
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.054s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/dds_fastrtps
+[10.054s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_fastrtps_cpp.hpp
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.055s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.055s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.055s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.055s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.c
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_c.h
+[10.055s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.055s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_c.h
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_c.h
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.c
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.c
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.c
+[10.055s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_c.h
+[10.056s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.056s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.c
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_c.h
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.c
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.c
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_c.h
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so
+[10.056s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.056s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so
+[10.056s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_c.so" to ""
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/action/detail/patrol__type_support.cpp
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__type_support.cpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__type_support.cpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/dqn__type_support.cpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/srv/detail/goal__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg
+[10.057s] -- Up-to-date: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__type_support.cpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[10.057s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__type_support.cpp
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/version_info__type_support.cpp
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/include/turtlebot3_msgs/turtlebot3_msgs/msg/detail/sensor_state__rosidl_typesupport_introspection_cpp.hpp
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so
+[10.058s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so
+[10.058s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_typesupport_cpp.so" to ""
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.sh
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/pythonpath.dsv
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/PKG-INFO
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/top_level.txt
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/SOURCES.txt
+[10.058s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs-2.4.0-py3.10.egg-info/dependency_links.txt
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/libturtlebot3_msgs__rosidl_generator_py.so
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_c.c
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/__init__.py
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/__init__.py
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol_s.c
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol.py
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn_s.c
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/__init__.py
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound.py
+[10.059s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound_s.c
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_goal.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_goal_s.c
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/__init__.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound_s.c
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state_s.c
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info.py
+[10.060s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info_s.c
+[10.061s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/_turtlebot3_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.102s] Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs'...
+[10.102s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/__init__.py'...
+[10.102s] Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action'...
+[10.102s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/__init__.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/action/_patrol.py'...
+[10.103s] Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/__init__.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sensor_state.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_sound.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/msg/_version_info.py'...
+[10.103s] Listing '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/__init__.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_dqn.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_goal.py'...
+[10.103s] Compiling '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/srv/_sound.py'...
+[10.107s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.107s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.107s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.107s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.107s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.107s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages/turtlebot3_msgs/turtlebot3_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.107s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so
+[10.108s] -- Set runtime path of "/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/lib/libturtlebot3_msgs__rosidl_generator_py.so" to ""
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.idl
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/SensorState.msg
+[10.108s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/Sound.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/msg/VersionInfo.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound.srv
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Request.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Sound_Response.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn.srv
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Request.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Dqn_Response.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal.srv
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Request.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/srv/Goal_Response.msg
+[10.109s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/action/Patrol.action
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/ament_index/resource_index/package_run_dependencies/turtlebot3_msgs
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/ament_index/resource_index/parent_prefix_path/turtlebot3_msgs
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.sh
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/ament_prefix_path.dsv
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.sh
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/environment/path.dsv
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.bash
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.sh
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.zsh
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/local_setup.dsv
+[10.110s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.dsv
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/ament_index/resource_index/packages/turtlebot3_msgs
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_cppExport.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.111s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/export_turtlebot3_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake-extras.cmake
+[10.112s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/cmake/turtlebot3_msgsConfig-version.cmake
+[10.113s] -- Installing: /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/install/turtlebot3_msgs/share/turtlebot3_msgs/package.xml
+[10.115s] Invoked command in '/home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_teleop:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/turtlebot3_example:/home/augustmenard/Intro-to-Robotics-Research-Labs/install/team_rocket_final:/opt/ros/humble /usr/bin/cmake --install /home/augustmenard/Intro-to-Robotics-Research-Labs/final_ws/build/turtlebot3_msgs

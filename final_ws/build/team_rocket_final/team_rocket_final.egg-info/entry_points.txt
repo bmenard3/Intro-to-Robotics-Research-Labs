@@ -2,3 +2,4 @@
 getObjectRange = team_rocket_final.getObjectRange:main
 moveRobot = team_rocket_final.moveRobot:main
 signDetector = team_rocket_final.signDetector:main
+

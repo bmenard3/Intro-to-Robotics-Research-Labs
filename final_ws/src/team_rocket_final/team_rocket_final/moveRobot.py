@@ -446,6 +446,8 @@ class MoveRobot(Node):
             msg.angular.y = 0.0
             msg.angular.z = 0.0
             self.get_logger().info('🎯 State 6: GOAL REACHED! Mission complete!')
+            time.sleep(0.5)
+            self.state = 5
         
         # ========== State 7: Small Turn Right ==========
         elif self.state == 7:
